@@ -14,3 +14,12 @@
 html, body {
   font-size: 16rpx;
 }
+page {
+  background: #f7f7f7;
+}
+.icon-more {
+  float: right;
+  width: 12rpx;
+  height: 22rpx;
+  margin-top: 39rpx;
+}

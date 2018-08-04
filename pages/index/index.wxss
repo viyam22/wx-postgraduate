@@ -1,21 +1,92 @@
 /**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.banner {
+  height: 348rpx;
+  width: 100%;
 }
-
-.userinfo-nickname {
-  color: #aaa;
+.banner image {
+  width: 100%;
+  height: 100%;
 }
-
-.usermotto {
-  margin-top: 200px;
+.into {
+  background: #fff;
+  width: 100%;
+  padding: 20rpx 8rpx;
+}
+.into-wrap {
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: block;
+}
+.into image {
+  margin: 0 8rpx;
+  width: 352rpx;
+  height: 200rpx;
+  display: inline-block;
+}
+.good-class {
+  background: #fff;
+  width: 100%;
+  margin-top: 20rpx;
+}
+.good-class .header {
+  height: 84rpx;
+  line-height: 84rpx;
+  padding: 0 24rpx;
+}
+.good-class .header .title {
+  font-size: 30rpx;
+  color: #313133;
+  display: inline-block;
+}
+.good-class .header .more {
+  font-size: 26rpx;
+  color: #c4c5cc;
+  float: right;
+  display: inline-block;
+}
+.class-container .wrap {
+  border-top: 1px #f0f0f0 solid;
+  padding: 24rpx;
+}
+.class-container .wrap image {
+  width: 240rpx;
+  height: 178rpx;
+  margin-right: 28rpx;
+  float: left;
+}
+.class-container .wrap .info .title {
+  color: #313133;
+  font-size: 30rpx;
+}
+.class-container .wrap .info .type {
+  color: #abacb2;
+  font-size: 24rpx;
+  display: block;
+}
+.class-container .wrap .info .current-price {
+  color: #ff7f4d;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.class-container .wrap .info .origin-price {
+  color: #c4c5cc;
+  font-size: 26rpx;
+  text-decoration:line-through;
+  margin-left: 16rpx;
+}
+.fast-into {
+  background: #fff;
+  margin-top: 20rpx;
+  margin-bottom: 50rpx;
+  padding: 0 24rpx;
+}
+.fast-into .title {
+  line-height: 84rpx;
+}
+.fast-into image {
+  margin-bottom: 20rpx;
+  width: 100%;
+  height: 240rpx;
+  border-radius: 10rpx;
 }

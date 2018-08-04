@@ -1,13 +1,39 @@
 <!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+<view class="index">
+  <swiper indicator-dots="true"
+  autoplay="true" interval="5000" duration="500" class="banner">
+    <block wx:for="{{bannerUrl}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="355" height="150"/>
+      </swiper-item>
     </block>
+  </swiper>
+
+  <view class="into">
+    <image wx:for="{{intoData}}" src="{{item.imgUrl}}" />
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+
+  <view class="good-class">
+    <view class="header">
+      <text class="title">精品课程</text>
+      <text class="more">更多></text>
+    </view>
+    <view class="class-container">
+      <view class="wrap" wx:for="{{classData}}">
+        <image src="{{item.imgUrl}}" />
+        <view class="info">
+          <text class="title">{{item.title}}</text>
+          <text class="type">{{item.type}}</text>
+          <text class="current-price">{{item.currentPrice}}</text>
+          <text class="origin-price">{{item.originPrice}}</text>
+        </view>
+      </view>
+    </view>
   </view>
+
+  <view class="fast-into">
+    <text class="title">快速入口</text>
+    <image wx:for="{{fastImg}}" src="{{item.imgUrl}}" />
+  </view>
+  
 </view>

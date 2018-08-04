@@ -4,10 +4,66 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
-    userInfo: {},
-    hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    bannerUrl: [
+      '../../assets/index_banner.png',
+      '../../assets/index_banner.png'
+    ],
+    intoData: [{
+      imgUrl: '../../assets/index_into1.png',
+      url: ''
+    },{
+      imgUrl: '../../assets/index_into2.png',
+      url: ''
+    },{
+      imgUrl: '../../assets/index_into3.png',
+      url: ''
+    },{
+      imgUrl: '../../assets/index_into4.png',
+      url: ''
+    }],
+    classData: [{
+      imgUrl: '../../assets/index_into2.png',
+      title: '19考研蜕变标准  政英+专业课1V1（赵鑫全讲师）',
+      type: '免费试听',
+      currentPrice: '￥29',
+      originPrice: '￥59.99'
+    },{
+      imgUrl: '../../assets/index_into2.png',
+      title: '19考研蜕变标准  政英+专业课1V1（赵鑫全讲师）',
+      type: '免费试听',
+      currentPrice: '￥29',
+      originPrice: '￥59.99'
+    }],
+    fastImg: [{
+      imgUrl: '../../assets/index_q_into1.png',
+      url: ''
+    },{
+      imgUrl: '../../assets/index_q_into2.png',
+      url: ''
+    },{
+      imgUrl: '../../assets/index_q_into3.png',
+      url: ''
+    }]
+  },
+  changeIndicatorDots: function(e) {
+    this.setData({
+      indicatorDots: !this.data.indicatorDots
+    })
+  },
+  changeAutoplay: function(e) {
+    this.setData({
+      autoplay: !this.data.autoplay
+    })
+  },
+  intervalChange: function(e) {
+    this.setData({
+      interval: e.detail.value
+    })
+  },
+  durationChange: function(e) {
+    this.setData({
+      duration: e.detail.value
+    })
   },
   //事件处理函数
   bindViewTap: function() {

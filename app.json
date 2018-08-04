@@ -1,10 +1,10 @@
 {
   "pages": [
+    "pages/index/index",
     "pages/center/center",
     "pages/purse/purse",
     "pages/post/cost",
     "pages/rank/result",
-    "pages/index/index",
     "pages/logs/logs"
   ],
   "window": {
