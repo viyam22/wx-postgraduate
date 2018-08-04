@@ -1,0 +1,43 @@
+page {
+  background: #f7f7f7;
+}
+.header {
+  height: 240rpx;
+  background: #0099ff;
+  color: #fff;
+  padding: 28rpx 30rpx 0 40rpx;
+}
+.header .info image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  border: 2px #fff solid;
+  float: left;
+}
+.header .info .info-mate {
+  float: left;
+  margin-left: 20rpx;
+}
+.header .info .info-mate-name {
+  font-size: 40rpx;
+  line-height: 66rpx;
+}
+.header .info .info-mate-phone {
+  font-size: 26rpx;
+  display: block;
+}
+.header .info .setting {
+  float: right;
+  line-height: 100rpx;
+}
+
+.main {
+  padding: 0 24rpx;
+  transform: translateY(-50rpx);
+}
+.main .wrap {
+  background: #fff;
+  border-radius: 20rpx;
+  width: 100%;
+  margin-bottom: 30rpx;
+}

@@ -1,0 +1,4 @@
+<view class="list">
+  <text>{{listName}}</text>
+  <image src="../assets/icon-more.png" />
+</view>

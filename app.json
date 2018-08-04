@@ -1,12 +1,48 @@
 {
-  "pages":[
+  "pages": [
+    "pages/center/center",
+    "pages/purse/purse",
+    "pages/post/cost",
+    "pages/rank/result",
     "pages/index/index",
     "pages/logs/logs"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#6c8fff",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "./assets/tab_home.png",
+      "selectedIconPath": "./assets/tab_home_sel.png"
+    },{
+      "pagePath": "pages/index/index",
+      "text": "估分",
+      "iconPath": "./assets/tab_gufen.png",
+      "selectedIconPath": "./assets/tab_gufen_sel.png"
+    },{
+      "pagePath": "pages/index/index",
+      "text": "分销",
+      "iconPath": "./assets/tab_sale.png",
+      "selectedIconPath": "./assets/tab_sale_sel.png"
+    },{
+      "pagePath": "pages/index/index",
+      "text": "测评",
+      "iconPath": "./assets/tab_test.png",
+      "selectedIconPath": "./assets/tab_test_sel.png"
+    },{
+      "pagePath": "pages/center/center",
+      "text": "我的",
+      "iconPath": "./assets/tab_me.png",
+      "selectedIconPath": "./assets/tab_me_sel.png"
+    }]
   }
 }

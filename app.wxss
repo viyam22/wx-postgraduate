@@ -8,3 +8,9 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+
+
+/*  默认样式 */
+html, body {
+  font-size: 16rpx;
+}
