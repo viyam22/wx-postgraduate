@@ -26,3 +26,8 @@
 .minus{
   color: #ff7f4d;
 }
+.add{
+  font-size: 38rpx;  
+  float: right;  
+  color: #0099ff;   
+}

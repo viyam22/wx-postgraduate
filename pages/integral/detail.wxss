@@ -1,0 +1,9 @@
+/* pages/integral/detail.wxss */
+.integral-detail{
+  padding-top: 38rpx;
+  padding-left: 25rpx;
+}
+.detail{
+  font-size: 28rpx;
+  color: #666;
+}

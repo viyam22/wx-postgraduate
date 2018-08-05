@@ -14,19 +14,19 @@
   <view class="main">
     <view class="wrap">
       <ListWrap list-name="我的余额" bindtap="toPurse"></ListWrap>
-      <ListWrap list-name="我的积分"></ListWrap>
-      <ListWrap list-name="已购产品"></ListWrap>
-      <ListWrap list-name="我的购物车"></ListWrap>
+      <ListWrap list-name="我的积分" bindtap="toIntegral"></ListWrap>
+      <ListWrap list-name="已购产品" bindtap="toOrder"></ListWrap>
+      <ListWrap list-name="我的购物车" bindtap="toCart"></ListWrap>
     </view>
 
     <view class="wrap">
-      <ListWrap list-name="报考估分"></ListWrap>
-      <ListWrap list-name="在线测评"></ListWrap>
+      <ListWrap list-name="报考估分" bindtap="toScore" ></ListWrap>
+      <ListWrap list-name="在线测评" bindtap="toTest"></ListWrap>
     </view>
 
     <view class="wrap">
-      <ListWrap list-name="生成邀请二维码"></ListWrap>
-      <ListWrap list-name="申请代理商"></ListWrap>
+      <ListWrap list-name="生成邀请二维码" bindtap="toewm"></ListWrap>
+      <ListWrap list-name="申请代理商" bindtap="toAgent"></ListWrap>
     </view>
   </view>
 </view>
