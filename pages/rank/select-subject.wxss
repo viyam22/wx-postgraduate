@@ -1,0 +1,25 @@
+.icon-right {
+  float: right;
+  position: relative;
+  margin-top: 32rpx;
+}
+.picker .value {
+  float: right;
+  margin-right: 28rpx;
+}
+.picker .defalut-color {
+  color: #939799;
+}
+.input-txt {
+  width: 500rpx;
+  float: right;
+  line-height: 86rpx;
+  height: 86rpx;
+  text-align: right;
+}
+.placeholder {
+  color: #939799;
+}
+.margin-bottom {
+  margin-bottom: 168rpx;
+}

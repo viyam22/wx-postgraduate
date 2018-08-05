@@ -1,0 +1,18 @@
+/* 按钮 */
+.button-l image {
+  width: 695rpx;
+  height: 120rpx;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.button-l text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.button-l {
+  color: #fff;
+  line-height: 86rpx;
+  font-size: 34rpx;
+}

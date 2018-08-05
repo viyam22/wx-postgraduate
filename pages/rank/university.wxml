@@ -1,0 +1,6 @@
+<view class="select-lists">
+  <view class="item" wx:for="{{universityData}}" bindtap="selectItem" data-index="{{index}}" wx:key="index">
+    <text>{{item.name}}</text>
+    <image class="icon-tick" wx:if="{{actived === index}}" src="../../assets/icon-tick.png" />
+  </view>
+</view>

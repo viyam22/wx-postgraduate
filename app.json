@@ -1,5 +1,10 @@
 {
   "pages": [
+    "pages/rank/all-rank",
+    "pages/rank/rank",
+    "pages/rank/select-subject",
+    "pages/rank/subject",
+    "pages/rank/university",
     "pages/index/index",
     "pages/center/center",
     "pages/purse/purse",

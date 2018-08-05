@@ -1,0 +1,59 @@
+<view class="all-rank">
+  <view class="header">
+    <text>报考院校近三年的录取分数线（管综、英语、总分）</text>
+    <text>2015年：管综100    英语100   总分320</text>
+    <text>2016年：管综100    英语100   总分320</text>
+    <text>2017年：管综100    英语100   总分320</text>
+  </view>
+
+  <view class="info">
+    <image src="../../assets/img_my_score.png" />
+    <view class="score">
+      <text class="title">我的成绩</text>
+      <view class="lists">
+        <view class="item">
+          <text>主观题分值</text>
+          <text class="num">102</text>
+        </view>
+        <view class="item">
+          <text>客观题分值</text>
+          <text class="num">140</text>
+        </view>
+      </view>
+    </view>
+    <view class="rank">
+      <text class="title">我的排名</text>
+      <view class="check-other">
+        查看其它学校排名
+      </view>
+
+      <view class="rank-txt">
+        <text clas="txt">第</text>
+        <text class="num">6</text>
+        <text clas="txt">名</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="main">
+    <view class="rank-lists">
+      <view class="title">成绩排名</view>
+      <view class="rank-table">
+        <view class="header">
+          <view class="td-s">排名</view>
+          <view class="td-l">姓名</view>
+          <view class="td-s">专业</view>
+          <view class="td-s">数学</view>
+          <view class="td-s">综合</view>
+        </view>
+        <view class="lists">
+          <view class="item" wx:for="{{rankData}}" wx:key="index">
+            <view class="td-s td-blue-sel">{{item.rank}}</view>
+            <view class="td-l td-blue">{{item.name}}</view>
+            <view class="td-s td-blue-sel">{{item.score}}</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

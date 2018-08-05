@@ -1,5 +1,9 @@
 <!--index.wxml-->
 <view class="index">
+  <view class="sign">
+    <image src="../../assets/icon_sign.png" />
+    <text>签到</text>
+  </view>
   <swiper indicator-dots="true"
   autoplay="true" interval="5000" duration="500" class="banner">
     <block wx:for="{{bannerUrl}}">
@@ -34,6 +38,11 @@
   <view class="fast-into">
     <text class="title">快速入口</text>
     <image wx:for="{{fastImg}}" src="{{item.imgUrl}}" />
+  </view>
+
+  <view class="toast">
+    <view>签到成功</view>
+    <view>+5积分</view>
   </view>
   
 </view>

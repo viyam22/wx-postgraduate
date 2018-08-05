@@ -1,0 +1,4 @@
+<view class="button-l">
+  <text>{{innerTxt}}</text>
+  <image src="../assets/button_l.png" />
+</view>

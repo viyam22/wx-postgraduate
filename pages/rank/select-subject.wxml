@@ -1,0 +1,41 @@
+<view class="select-lists">
+  <view class="item">
+    <picker bindchange="pickProvince" value="{{index}}" range="{{provinceArr}}">
+      <view class="picker">
+        <text>选择省份</text>
+        <image class="icon-more icon-right"  src="../../assets/icon-more.png" />
+        <text class="{{provinceClass}}">{{provinceArr[provinceIndex]}}</text>
+      </view>
+    </picker>
+  </view>
+
+
+  <view class="item">
+    <picker bindchange="pickUniversity" value="{{index}}" range="{{universityArr}}">
+      <view class="picker">
+        <text>报考院校</text>
+        <image class="icon-more icon-right"  src="../../assets/icon-more.png" />
+        <text class="{{universityClass}}">{{universityArr[universityIndex]}}</text>
+      </view>
+    </picker>
+  </view>
+
+  <view class="item">
+    <picker bindchange="pickSubject" value="{{index}}" range="{{subjectArr}}">
+      <view class="picker">
+        <text>报考专业</text>
+        <image class="icon-more icon-right"  src="../../assets/icon-more.png" />
+        <text class="{{subjectClass}}">{{subjectArr[subjectIndex]}}</text>
+      </view>
+    </picker>
+  </view>
+</view>
+
+<view class="select-lists margin-bottom">
+  <view class="item">
+    <text>考试分数</text>
+    <input class="input-txt" placeholder-style="placeholder" placeholder="请输入分数"/>
+  </view>
+</view>
+
+<ButtonWrap inner-txt="提交"></ButtonWrap>

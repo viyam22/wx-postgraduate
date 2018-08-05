@@ -23,3 +23,50 @@ page {
   height: 22rpx;
   margin-top: 39rpx;
 }
+/* Toast */
+.toast {
+  padding: 40rpx 64rpx;
+  background: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 16rpx;
+  z-index: 1;
+  color: #fff;
+  font-size: 26rpx;
+  text-align: center;
+}
+.toast view {
+  display: block;
+}
+
+/* 选择页面 */
+.select-lists {
+  margin-top: 20rpx;
+  border-top: 1px #ededed solid;
+  border-bottom: 1px #ededed solid;
+  padding-left: 24rpx;
+  background: #fff;
+  font-size: 30rpx;
+  color: #494b4c;
+}
+.select-lists .item {
+  line-height: 86rpx;
+  padding-right: 36rpx;
+  position: relative;
+  border-bottom: 1px #ededed solid;
+}
+.select-lists .item:last-child {
+  border-bottom: none;
+}
+.icon-tick {
+  width: 30rpx;
+  height: 20rpx;
+  float: right;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 36rpx;
+}
+

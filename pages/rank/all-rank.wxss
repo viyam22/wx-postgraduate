@@ -1,0 +1,150 @@
+.all-rank > .header {
+  background: #0099ff;
+  height: 336rpx;
+  width: 100%;
+  color: #fff;
+  font-size: 28rpx;
+  text-align: center;
+  padding: 16rpx 0;
+  line-height: 48rpx;
+}
+.all-rank .header text {
+  display: block;
+}
+
+.info {
+  padding: 0 30rpx;
+  transform: translateY(-80rpx);
+  font-size: 32rpx;
+  color: #494b4c;
+  position: relative;
+}
+.info image {
+  width: 694rpx;
+  height: 580rpx;
+}
+.info .score {
+  width: 100%;
+  height: 266rpx;
+  position: absolute;
+  top: 0;
+  left: 30rpx;
+}
+.info .title {
+  position: absolute;
+  top: 40rpx;
+  left: 60rpx;
+}
+.info .score .lists {
+  position: absolute;
+  top: 120rpx;
+  width: 100%;
+  box-sizing: border-box;
+  transform: translateX(-30rpx);
+}
+.info .score .lists .item {
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+}
+.info .score .lists .item text {
+  display: block;
+}
+.info .score .lists .item .num {
+  font-size: 50rpx;
+}
+.rank-txt {
+  position: absolute;
+  top: 100rpx;
+  text-align: center;
+  width: 100%;
+  transform: translateX(-30rpx);
+}
+.rank-txt .txt {
+  font-size: 38rpx;
+  color: #494b4c;
+}
+.rank-txt .num {
+  font-size: 124rpx;
+  color: #ff7f4d;
+  margin: 0 30rpx;
+}
+.info .rank {
+  position: absolute;
+  top: 306rpx;
+  left: 30rpx;
+  width: 100%;
+  height: 294rpx;
+}
+.info .rank .check-other {
+  color: #6596f9;
+  border: 1px #6596f9 solid;
+  font-size: 26rpx;
+  border-radius: 8rpx;
+  padding: 0 16rpx;
+  line-height: 42rpx;
+  position: absolute;
+  top: 40rpx;
+  left: 400rpx;
+}
+/* 表格 */
+.main {
+  padding: 0 30rpx;
+}
+.rank-lists {
+  margin-top: 20rpx;
+}
+.rank-lists .title {
+  font-size: 30rpx;
+  color: #626466;
+  line-height: 30rpx;
+  position: relative;
+  padding-left: 16rpx;
+}
+.rank-lists .title::after {
+  content: "";
+  display: block;
+  width: 6rpx;
+  height: 30rpx;
+  background: #0099ff;
+  border-radius: 3rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.rank-table {
+  margin-top: 24rpx;
+}
+.rank-table .header {
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  font-size: 24rpx;
+  /* height: 60rpx; */
+  line-height: 60rpx;
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+}
+.td-s {
+  width: 200rpx;
+  display: inline-block;
+}
+.td-l {
+  width: 290rpx;
+  display: inline-block;
+}
+.td-blue-sel {
+  background: #cae9ff;
+}
+.td-blue {
+  background: #e2f3ff;
+}
+.rank-table .lists .item {
+  line-height: 80rpx;
+  font-size: 24rpx;
+  color: #626466;
+  text-align: center;
+}
+.rank-table .lists .item:first-child view {
+  padding-top: 60rpx;
+}
