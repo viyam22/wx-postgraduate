@@ -1,0 +1,41 @@
+.purse{
+    margin-top:170rpx;
+    margin-bottom:120rpx;
+    text-align:center;
+}
+.purse-image{
+    width:198rpx;
+    height:132rpx;
+}
+.purse-title{
+    font-size: 30rpx;
+	color: #494b4d;
+}
+.purse-money{
+    font-size: 64rpx;
+	color: #494b4d;
+}
+.top{
+    width: 690rpx;
+	height: 88rpx;
+    background-image: linear-gradient(0deg, #0099ff 0%, #0ddaff 100%);
+    outline-style:none;
+	border-radius: 10rpx;
+    color:#fff;
+    font-size:32rpx;
+    margin-bottom:30rpx;
+}
+.bottom{
+    width: 690rpx;
+	height: 88rpx;
+	border-radius: 10rpx;
+    border: solid 1px #e0e0e0;
+    color:#0099ff;
+    font-size:32rpx;
+    margin-bottom:30rpx;
+}
+.indtructions{
+    text-align:center;
+    font-size:24rpx;
+    color:#bcc1c4
+}

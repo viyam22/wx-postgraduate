@@ -1,0 +1,7 @@
+<view class="balance">
+  <view wx:for="{{balanceData}}" class='balance-list'>
+    <text class='list-name'>{{item.listName}}</text>
+    <text class='time'>{{item.time}}</text>    
+    <text class="detail {{ item.detail<0 ? 'minus' : '' }}">{{item.detail}}</text>    
+  </view>
+</view>
