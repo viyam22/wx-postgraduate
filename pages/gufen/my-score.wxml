@@ -1,0 +1,26 @@
+<view class="my-score">
+  <view class="blue-view"></view>
+  <view class="info">
+    <view class="lists">
+      <view class="item">
+        <text>主观题分值</text>
+        <text class="num">102</text>
+      </view>
+      <view class="item">
+        <text>客观题分值</text>
+        <text class="num">140</text>
+      </view>
+    </view>
+
+    <text class="tip">去查看一下本次成绩排名吧~</text>
+
+    <view class="button-wrap">
+      <view>
+        查看排名
+      </view>
+      <view>
+        下载标准答案文档
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,13 +1,15 @@
 {
   "pages": [
-    "pages/rank/all-rank",
-    "pages/rank/rank",
+    "pages/gufen/my-score",
+    "pages/gufen/gufen",
+    "pages/gufen/all-rank",
+    "pages/purse/purse",
     "pages/rank/select-subject",
+    "pages/rank/rank",
     "pages/rank/subject",
     "pages/rank/university",
     "pages/index/index",
     "pages/center/center",
-    "pages/purse/purse",
     "pages/purse/getcash/getcash",
     "pages/purse/balance/balance",
     "pages/post/cost",

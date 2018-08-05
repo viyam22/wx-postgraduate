@@ -1,0 +1,50 @@
+.my-score {
+  padding: 0 30rpx;
+}
+.blue-view {
+  background: #0099ff;
+  height: 146rpx;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.info {
+  margin-top: 44rpx;
+  background: #fff;
+  border-radius: 18rpx;
+  height: 360rpx;
+  width: 100%;
+  padding-top: 56rpx;
+  box-sizing: border-box;
+  color: #494b4c;
+}
+.info .lists {
+  width: 100%;
+  box-sizing: border-box;
+}
+.info .lists .item {
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+}
+.info .lists .item text {
+  display: block;
+}
+.info .lists .item .num {
+  font-size: 50rpx;
+  font-weight: bold;
+  line-height: 86rpx;
+}
+.info .tip {
+  color: #ff8949;
+  font-size: 28rpx;
+  text-align: center;
+  display: block;
+  margin-top: 10rpx;
+}
+.info .button-wrap {
+  font-size: 28rpx;
+  color: #29a2ff;
+}
