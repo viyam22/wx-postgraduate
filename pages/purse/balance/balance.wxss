@@ -1,0 +1,28 @@
+/* pages/purse/balance/balance.wxss */
+.balance-list{
+	height: 120rpx;
+  line-height: 120rpx;
+	background-color: #ffffff;
+  padding-left: 30rpx; 
+  position: relative;
+}
+.list-name{
+  font-size: 30rpx;
+  color: #2b2b2b;
+}
+.time{
+  position: absolute;
+  top: 35%;
+  left: 4%;
+  font-size: 24rpx;
+  color: #999;
+}
+.detail{
+  font-size: 38rpx;
+  color: #0099ff; 
+  float: right;
+   padding-right: 54rpx;  
+}
+.minus{
+  color: #ff7f4d;
+}

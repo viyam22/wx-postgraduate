@@ -1,3 +1,10 @@
-<view>
-  我的钱包
+<view class="my-purse">
+  <view class="purse">
+    <image class="purse-image" src="../../assets/center/purse.png" bindload=""></image>
+    <view class="purse-title">我的余额</view>
+    <view class="purse-money">￥{{purse}}</view>
+  </view>
+  <button  bindtap="navigateTo" data-url="/pages/purse/getcash/getcash" class="top">提现</button>
+  <button bindtap="navigateTo" data-url="/pages/purse/balance/balance"  class="bottom">余额明细</button>
+  <view class="indtructions">说明：体系金额低于20元无法提现</view>
 </view>
