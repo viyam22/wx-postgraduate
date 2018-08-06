@@ -1,0 +1,62 @@
+.fee {
+  position: relative;
+}
+.bg-fee {
+  width: 690rpx;
+  height: 730rpx;
+  margin: 20rpx auto 0;
+  display: block;
+}
+.fee .container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 0 56rpx;
+  box-sizing: border-box;
+}
+.fee .container .title {
+  line-height: 122rpx;
+  border-bottom: 1px #e2e2e2 dashed;
+  color: #313233;
+  font-size: 36rpx;
+  display: block;
+  text-align: center;
+  margin: 0 18rpx;
+}
+.fee .main {
+  line-height: 100rpx;
+  color: #494b4c;
+  font-size: 30rpx;
+  padding: 10rpx;
+  border-bottom: 1px #e2e2e2 dashed;
+  height: 426rpx;
+  box-sizing: border-box;
+  margin: 0 18rpx;
+}
+.fee .main .item {
+  overflow: hidden;
+}
+.fee .main .to-left {
+  float: left;
+}
+.fee .main .to-right {
+  float: right;
+}
+.select-default {
+  width: 26rpx!important;
+  height: 26rpx!important;
+  border: 1px #dbdbdb solid;
+}
+.icon-tick-blue {
+  float: right;
+  margin: 32rpx 20rpx;
+}
+.footer .button-s {
+  margin-top: 40rpx;
+}
+.fee .tip {
+  font-size: 24rpx;
+  color: #bcc1c4;
+  padding: 0 30rpx;
+  line-height: 70rpx;
+}

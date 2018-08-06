@@ -1,0 +1,92 @@
+.bg-blue {
+  background: #0099ff;
+  height: 146rpx;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.info .bg {
+  width: 710rpx;
+  height: 278rpx;
+  margin: 42rpx auto 0;
+  display: block;
+}
+.info .lists {
+  position: absolute;
+  top: 120rpx;
+  width: 100%;
+  box-sizing: border-box;
+  color: #494b4c;
+}
+.info .lists .item {
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+}
+.info .lists .item text {
+  display: block;
+  font-size: 34rpx;
+}
+.info .lists .item .num {
+  font-size: 60rpx;
+  font-weight: bold;
+}
+/* 表格 */
+.rank-lists {
+  margin: 20rpx 30rpx 0;
+}
+.rank-lists .title {
+  font-size: 30rpx;
+  color: #626466;
+  line-height: 30rpx;
+  position: relative;
+  padding-left: 16rpx;
+}
+.rank-lists .title::after {
+  content: "";
+  display: block;
+  width: 6rpx;
+  height: 30rpx;
+  background: #0099ff;
+  border-radius: 3rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.rank-table {
+  margin-top: 24rpx;
+}
+.rank-table .header {
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-size: 24rpx;
+  /* height: 60rpx; */
+  line-height: 60rpx;
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+}
+.td-s {
+  width: 200rpx;
+  display: inline-block;
+}
+.td-l {
+  width: 290rpx;
+  display: inline-block;
+}
+.td-blue-sel {
+  background: #cae9ff;
+}
+.td-blue {
+  background: #e2f3ff;
+}
+.rank-table .lists .item {
+  line-height: 80rpx;
+  font-size: 24rpx;
+  color: #626466;
+  text-align: center;
+}
+.rank-table .lists .item:first-child view {
+  padding-top: 60rpx;
+}
