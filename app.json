@@ -4,18 +4,30 @@
     "pages/gufen/all-rank",
     "pages/gufen/gufen",
     "pages/gufen/my-score",
-    "pages/purse/purse",
+    "pages/index/index",
+    "pages/online/paid",    
+    "pages/online/onlinecard",    
+    "pages/online/onlinetest",    
+    "pages/online/online",  
     "pages/rank/select-subject",
     "pages/rank/rank",
     "pages/rank/subject",
     "pages/rank/university",
-    "pages/index/index",
+    "pages/rank/result",
+    "pages/post/cost",
+    "pages/logs/logs",
     "pages/center/center",
+    "pages/purse/purse",
     "pages/purse/getcash/getcash",
     "pages/purse/balance/balance",
-    "pages/post/cost",
-    "pages/rank/result",
-    "pages/logs/logs"
+    "pages/integral/integral",
+    "pages/integral/detail",
+    "pages/order/orderdetail",
+    "pages/order/order",
+    "pages/cart/cart",
+    "pages/agent/agent",
+    "pages/ewm/ewm",
+    "pages/center/setting"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -28,31 +40,37 @@
     "selectedColor": "#6c8fff",
     "backgroundColor": "#fff",
     "borderStyle": "white",
-    "list": [{
-      "pagePath": "pages/index/index",
-      "text": "首页",
-      "iconPath": "./assets/tab_home.png",
-      "selectedIconPath": "./assets/tab_home_sel.png"
-    },{
-      "pagePath": "pages/index/index",
-      "text": "估分",
-      "iconPath": "./assets/tab_gufen.png",
-      "selectedIconPath": "./assets/tab_gufen_sel.png"
-    },{
-      "pagePath": "pages/index/index",
-      "text": "分销",
-      "iconPath": "./assets/tab_sale.png",
-      "selectedIconPath": "./assets/tab_sale_sel.png"
-    },{
-      "pagePath": "pages/index/index",
-      "text": "测评",
-      "iconPath": "./assets/tab_test.png",
-      "selectedIconPath": "./assets/tab_test_sel.png"
-    },{
-      "pagePath": "pages/center/center",
-      "text": "我的",
-      "iconPath": "./assets/tab_me.png",
-      "selectedIconPath": "./assets/tab_me_sel.png"
-    }]
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./assets/tab_home.png",
+        "selectedIconPath": "./assets/tab_home_sel.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "估分",
+        "iconPath": "./assets/tab_gufen.png",
+        "selectedIconPath": "./assets/tab_gufen_sel.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "分销",
+        "iconPath": "./assets/tab_sale.png",
+        "selectedIconPath": "./assets/tab_sale_sel.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "测评",
+        "iconPath": "./assets/tab_test.png",
+        "selectedIconPath": "./assets/tab_test_sel.png"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "text": "我的",
+        "iconPath": "./assets/tab_me.png",
+        "selectedIconPath": "./assets/tab_me_sel.png"
+      }
+    ]
   }
 }

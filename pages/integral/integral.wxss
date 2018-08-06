@@ -1,0 +1,57 @@
+/* pages/integral/integral.wxss */
+.banner{
+	height: 300rpx;
+	background-color: #0099ff;
+  position: relative;
+}
+.integral-detail{
+  color: #fff;
+  font-size: 28rpx;
+  float: right;
+  padding-right:26rpx;
+}
+.integra-img{
+  width: 216rpx;
+  height: 216rpx;
+}
+.integra-img,.integral-data{
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+}
+.integral-data{
+  color: #fff;
+}
+.balance-list{
+	height: 120rpx;
+  line-height: 120rpx;
+	background-color: #ffffff;
+  padding-left: 30rpx; 
+  position: relative;
+}
+.list-name{
+  font-size: 30rpx;
+  color: #2b2b2b;
+}
+.time{
+  position: absolute;
+  top: 35%;
+  left: 4%;
+  font-size: 24rpx;
+  color: #999;
+}
+.add{
+  font-size: 38rpx;  
+  float: right;  
+  color: #0099ff;   
+}
+.detail{
+  font-size: 38rpx;
+  color: #0099ff; 
+  float: right;
+   padding-right: 54rpx;  
+}
+.minus{
+  color: #ff7f4d;
+}

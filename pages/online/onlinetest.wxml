@@ -1,0 +1,18 @@
+<view class='onlinetest'>
+  <view class='test'>
+     <view class='num'>1</view>
+     <view class='num selected'>1</view> 
+     <view class='num selected'>1</view> 
+     <view class='num'>1</view> 
+     <view class='num'>1</view> 
+     <view class='num selected'>1</view> 
+     <view class='num'>1</view> 
+     <view class='num selected'>1</view> 
+     <view class='num'>1</view> 
+     <view class='num'>1</view> 
+     <view class='num'>1</view> 
+     <view class='num'>1</view> 
+     <view class='num'>1</view>       
+  </view>
+  <button class='btn'>交卷</button>
+</view>
