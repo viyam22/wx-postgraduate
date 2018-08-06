@@ -1,8 +1,9 @@
 {
   "pages": [
-    "pages/gufen/my-score",
-    "pages/gufen/gufen",
+    "pages/gufen/fee",
     "pages/gufen/all-rank",
+    "pages/gufen/gufen",
+    "pages/gufen/my-score",
     "pages/purse/purse",
     "pages/rank/select-subject",
     "pages/rank/rank",

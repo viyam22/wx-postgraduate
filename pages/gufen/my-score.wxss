@@ -11,12 +11,13 @@
   z-index: -1;
 }
 .info {
+  width: 100%;
   margin-top: 44rpx;
   background: #fff;
   border-radius: 18rpx;
   height: 360rpx;
   width: 100%;
-  padding-top: 56rpx;
+  padding-top: 48rpx;
   box-sizing: border-box;
   color: #494b4c;
 }
@@ -35,7 +36,7 @@
 .info .lists .item .num {
   font-size: 50rpx;
   font-weight: bold;
-  line-height: 86rpx;
+  line-height: 70rpx;
 }
 .info .tip {
   color: #ff8949;
@@ -47,4 +48,73 @@
 .info .button-wrap {
   font-size: 28rpx;
   color: #29a2ff;
+  line-height: 64rpx;
+  margin: 40rpx 0 0 62rpx;
+  position: absolute;
+  display: inline-block;
+}
+.info .button-wrap .button {
+  padding: 0 40rpx;
+  border: 1px #29a2ff solid;
+  display: inline-block;
+  border-radius: 34rpx;
+  margin: 0 14rpx;
+}
+
+/* 表格 */
+.main {
+  margin-bottom: 116rpx;
+}
+.rank-lists {
+  margin-top: 64rpx;
+}
+.rank-lists .title {
+  font-size: 30rpx;
+  color: #626466;
+  line-height: 30rpx;
+  position: relative;
+  padding-left: 16rpx;
+}
+.rank-lists .title::after {
+  content: "";
+  display: block;
+  width: 6rpx;
+  height: 30rpx;
+  background: #0099ff;
+  border-radius: 3rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.rank-table {
+  margin-top: 24rpx;
+}
+.rank-table .header {
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  font-size: 24rpx;
+  line-height: 60rpx;
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+}
+.td {
+  width: 344rpx;
+  display: inline-block;
+}
+.td-blue-sel {
+  background: #cae9ff;
+}
+.td-blue {
+  background: #e2f3ff;
+}
+.rank-table .lists .item {
+  width: 100%;
+  line-height: 80rpx;
+  font-size: 24rpx;
+  color: #626466;
+  text-align: center;
+}
+.rank-table .lists .item:first-child view {
+  padding-top: 60rpx;
 }

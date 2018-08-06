@@ -19,7 +19,7 @@
   color: #494b4c;
   position: relative;
 }
-.main image {
+.main .img-my-score {
   width: 694rpx;
   height: 580rpx;
 }
@@ -152,4 +152,62 @@
 }
 .rank-table .lists .item:first-child view {
   padding-top: 60rpx;
+}
+.division {
+  font-size: 28rpx;
+  color: #808080;
+  position: relative;
+  text-align: center;
+  margin-top: 60rpx;
+}
+.division::before, .division::after {
+  content: "";
+  display: block;
+  width: 280rpx;
+  border-bottom: 1px #808080 dashed;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.division::before {
+  left: 0;
+}
+.division::after {
+  right: 0;
+}
+.ad {
+  padding: 38rpx 58rpx;
+  background: #fff;
+  border: 1px #e6e6e6 solid;
+  border-radius: 18rpx;
+  position: relative;
+  margin-top: 40rpx;
+}
+.ad .title {
+  font-size: 30rpx;
+  color: #494b4c;
+  display: block;
+}
+.ad .desc {
+  font-size: 26rpx;
+  color: #939799;
+}
+.ad .checkout {
+  line-height: 52rpx;
+  padding: 0 38rpx;
+  font-size: 26rpx;
+  color: #5893ff;
+  border: 1px #5893ff solid;
+  border-radius: 8rpx;
+  display: inline-block;
+  position: absolute;
+  right: 40rpx;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.img_ad {
+  width: 690rpx;
+  height: 369rpx;
+  border-radius: 18rpx;
+  margin-top: 30rpx;
 }
