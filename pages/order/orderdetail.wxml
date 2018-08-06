@@ -1,0 +1,30 @@
+<block>
+  <view class='itemBox'>
+    <view class="class-container">
+      <view class="wrap" wx:for="{{classData}}">
+        <image src="{{item.imgUrl}}" />
+        <view class="info">
+          <text class="title">{{item.title}}</text>
+          <text class="num">数量：{{item.num}}</text>
+          <text class="current-price">{{item.currentPrice}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='itemList'>
+    <view class='item'>
+      <view>课程原价</view>
+      <view>￥100</view>
+    </view>
+    <view class='item' >
+      <view>使用账户余额</view>
+      <view>￥-20</view>
+    </view>
+    <view class='item'>
+      <view>实付金额</view>
+      <view>￥179</view>
+    </view>
+  </view>
+  <!-- 说明 -->
+  <text class='explain'>说明:本项目不支持退款服务</text>
+</block>

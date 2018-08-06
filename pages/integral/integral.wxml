@@ -1,0 +1,13 @@
+<view class="integral">
+  <view class='banner'>
+    <navigator class='integral-detail' url="/pages/integral/detail">积分明细></navigator>
+    <image class='integra-img' src='../../assets/center/jifen.png'></image>
+    <text class='integral-data' >{{integral}}</text>
+  </view>
+    <view wx:for="{{balanceData}}" class='balance-list'>
+    <text class='list-name'>{{item.listName}}</text>
+    <text class='time'>{{item.time}}</text>   
+    <text class="detail {{ item.detail<0 ? 'minus' : '' }}">{{item.detail}}</text> 
+    <text class='add'  style='color:#0099ff' wx:if="{{ item.detail>0}}">+</text>        
+  </view>
+</view>

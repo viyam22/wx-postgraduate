@@ -2,6 +2,7 @@
   <view wx:for="{{balanceData}}" class='balance-list'>
     <text class='list-name'>{{item.listName}}</text>
     <text class='time'>{{item.time}}</text>    
-    <text class="detail {{ item.detail<0 ? 'minus' : '' }}">{{item.detail}}</text>    
+    <text class="detail {{ item.detail<0 ? 'minus' : '' }}">{{item.detail}}</text>
+    <text class='add'  style='color:#0099ff' wx:if="{{ item.detail>0}}">+</text>    
   </view>
 </view>

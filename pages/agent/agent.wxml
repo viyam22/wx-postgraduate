@@ -1,0 +1,21 @@
+<view class="get-cash">
+  <view class='cash'>
+    <text class='title' >姓名</text>
+    <text style='color:red'>*</text>    
+    <input class='cash-input' type='text' placeholder='请输入'></input>
+  </view>
+    <view class='cash'>
+    <text class='title' >电话</text>
+    <text style='color:red'>*</text>
+    <input class='cash-input' type='number' placeholder='请输入'></input>
+  </view>
+    <view class='cash'>
+    <text class='title' >身份证号</text>
+    <input class='cash-input' style='width:350rpx;' type='number' value='4584848484848151515'></input>
+  </view>
+    <view class='cash'>
+    <text class='title' >地址</text>
+    <input class='cash-input' type='text' placeholder='请输入'></input>
+  </view>
+  <button class='cashbtn'>提交</button>
+</view>

@@ -1,0 +1,15 @@
+<view class='paid'>
+  <image src='../../assets/bg_blue.png' class='bg_blue'></image>
+  <view class='page'>
+    <view class='yuan'>
+      <image src='../../assets/tick_blue.png' class='tick_blue'></image>
+      <view class='title'>支付成功</view>
+    </view>
+    <image src='../../assets/bg_page.png' class='bg_page'></image>
+    <view class='main'>
+      <view class='testtitle'>在线测评测试题</view>
+      <view class='testsubtitle'>鑫全考研在线测评测试卷一</view>
+      <button class='btn'>去测试</button>
+    </view>
+  </view>
+</view>
