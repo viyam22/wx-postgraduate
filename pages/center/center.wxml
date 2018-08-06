@@ -7,7 +7,8 @@
         <text class="info-mate-name">希达拉普达</text>
         <text class="info-mate-phone">159487859</text>
       </view>
-      <text class="setting">设置</text>
+      <navigator url="/pages/center/setting"  class="setting">设置</navigator>
+      <text ></text>
     </view>
   </view>
 
