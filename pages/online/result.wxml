@@ -1,0 +1,40 @@
+<!-- 在线测评-结果分析 -->
+<view class="exam">
+  <view class="header">
+    <text>测试卷一</text>
+    <view class="button">答题卡</view>
+    <view class="stutas">
+      <text class="current-num">2</text>
+      <text class="total-num">/60</text>
+    </view>
+  </view>
+
+  <view class="topic">
+    <text>根据《中华人民共和国消防法》的规定，国务院公安部门规定的（）和其他特殊建设工程，建设单位应当将消防设计文件报送公安机关消防机构审核。</text>
+    <radio-group class="radio-group" bindchange="radioChange">
+      <label class="ui-radio" wx:for="{{items}}" wx:key="index">
+        <radio color="#0099ff" value="{{item.name}}" checked="{{item.checked}}"/>
+        <text>{{item.value}}</text>
+      </label>
+    </radio-group>
+  </view>
+
+  <view class="answer">
+    <text>正确答案：B</text>
+    <text>选择答案：C</text>
+  </view>
+
+  <view class="analysis">
+    <text>答案解析：</text>
+    <text class="desc">国务院公安部门规定的中型的人员密集场所和其他特殊建设工程，建设单位应当将消防设计文件报送公安机关消防机构审核</text>
+  </view>
+
+  <view class="button-container">
+    <view class="wrap">
+      <button class='button-s'>上一题</button>
+    </view>
+    <view class="wrap">
+    <button class='button-s'>下一题</button>
+    </view>
+  </view>
+</view>

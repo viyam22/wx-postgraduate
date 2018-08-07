@@ -1,9 +1,12 @@
 {
   "pages": [
+    "pages/online/online",
+    "pages/online/my-score",
+    "pages/online/result",
+    "pages/online/exam",
+    "pages/online/onlinetest",    
     "pages/online/rank",
     "pages/online/fee",
-    "pages/online/online",  
-    "pages/online/onlinetest",    
     "pages/online/onlinecard",    
     "pages/online/paid",    
     "pages/gufen/fee",

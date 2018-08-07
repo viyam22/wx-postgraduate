@@ -1,0 +1,107 @@
+.info {
+  position: relative;
+}
+.info image {
+  width: 710rpx;
+  height: 416rpx;
+  margin: 42rpx auto 0;
+  display: block;
+}
+.info .info-wrap {
+  position: absolute;
+  top: 60rpx;
+  color: #494b4c;
+  text-align: center;
+  width: 100%;
+}
+.info .info-wrap text {
+  display: block;
+}
+.info .info-wrap .title {
+  font-size: 32rpx;
+}
+.info .info-wrap .num {
+  font-size: 50rpx;
+  line-height: 90rpx;
+}
+.info .info-wrap .tip {
+  font-size: 28rpx;
+  color: #ff8949;
+}
+.info .button-wrap {
+  width: 100%;
+  position: absolute;
+  top: 276rpx;
+  padding: 0 80rpx;
+  box-sizing: border-box;
+}
+.info .button-wrap > view {
+  width: 50%;
+  display: inline-block;
+}
+.info .button-wrap .button {
+  line-height: 64rpx;
+  border-radius: 32rpx;
+  padding: 0 40rpx;
+  color: #29a2ff;
+  border: 1px #29a2ff solid;
+  display: inline-block;
+  background: #fff;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.button-l {
+  margin-top: 40rpx;
+}
+
+.product {
+  margin-top: 80rpx;
+}
+.product .title {
+  color: #494b4c;
+  font-size: 34rpx;
+  text-align: center;
+}
+.product .title text {
+  margin: 0 20rpx;
+}
+.product image {
+  width: 36rpx;
+  height: 30rpx;
+}
+
+.class-container {
+  background: #fff;
+  margin-top: 18rpx;
+}
+.class-container .wrap {
+  border-top: 1px #f0f0f0 solid;
+  padding: 24rpx;
+}
+.class-container .wrap image {
+  width: 240rpx;
+  height: 178rpx;
+  margin-right: 28rpx;
+  float: left;
+}
+.class-container .wrap .info .title {
+  color: #313133;
+  font-size: 30rpx;
+}
+.class-container .wrap .info .type {
+  color: #abacb2;
+  font-size: 24rpx;
+  display: block;
+}
+.class-container .wrap .info .current-price {
+  color: #ff7f4d;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.class-container .wrap .info .origin-price {
+  color: #c4c5cc;
+  font-size: 26rpx;
+  text-decoration:line-through;
+  margin-left: 16rpx;
+}

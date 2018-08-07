@@ -1,0 +1,37 @@
+<!-- 在线测评-测试 -->
+<view class="exam">
+  <view class="header">
+    <view class="timer">
+      <text class="num">03</text>
+      <text>时</text>
+      <text class="num">52</text>
+      <text>分</text>
+      <text class="num">29</text>
+      <text>秒</text>
+    </view>
+    <view class="button">答题卡</view>
+    <view class="stutas">
+      <text class="current-num">2</text>
+      <text class="total-num">/60</text>
+    </view>
+  </view>
+
+  <view class="topic">
+    <text>根据《中华人民共和国消防法》的规定，国务院公安部门规定的（）和其他特殊建设工程，建设单位应当将消防设计文件报送公安机关消防机构审核。</text>
+    <radio-group class="radio-group" bindchange="radioChange">
+      <label class="ui-radio" wx:for="{{items}}" wx:key="index">
+        <radio color="#0099ff" value="{{item.name}}" checked="{{item.checked}}"/>
+        <text>{{item.value}}</text>
+      </label>
+    </radio-group>
+  </view>
+
+  <view class="button-container">
+    <view class="wrap">
+      <button class='button-s'>上一题</button>
+    </view>
+    <view class="wrap">
+    <button class='button-s'>下一题</button>
+    </view>
+  </view>
+</view>

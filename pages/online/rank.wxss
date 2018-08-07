@@ -1,11 +1,3 @@
-.bg-blue {
-  background: #0099ff;
-  height: 146rpx;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  z-index: -1;
-}
 .info .bg {
   width: 710rpx;
   height: 278rpx;
