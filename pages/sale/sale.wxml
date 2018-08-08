@@ -1,0 +1,10 @@
+<!-- 分销 -->
+<view class="sale">
+  <text class="title">{{data.title1}}</text>
+  <view class="content">{{data.content1}}</view>
+  <text class="title">{{data.title2}}</text>
+  <view class="content">{{data.content2}}</view>
+
+  <!-- 按钮 -->
+  <button class="button-l">生成我的专属二维码</button>
+</view>

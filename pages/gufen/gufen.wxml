@@ -10,6 +10,5 @@
       <text>{{item.name}}</text>
       <image class="img" src="{{typeImg[item.type]}}" />
     </view>
-    
   </view>
 </view>

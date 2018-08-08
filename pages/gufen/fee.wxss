@@ -54,9 +54,3 @@
 .footer .button-s {
   margin-top: 40rpx;
 }
-.fee .tip {
-  font-size: 24rpx;
-  color: #bcc1c4;
-  padding: 0 30rpx;
-  line-height: 70rpx;
-}

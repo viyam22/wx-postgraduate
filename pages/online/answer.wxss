@@ -1,0 +1,18 @@
+.answer {
+  padding: 30rpx;
+}
+.answer .container {
+  background: #fff;
+  box-shadow: 0px 0px 7.68px 0.32px rgba(171, 171, 171, 0.3);
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 50rpx 20rpx;
+}
+.answer .container text {
+  width: 20%;
+  float: left;
+  text-align: center;
+  color: #494b4c;
+  font-size: 32rpx;
+}

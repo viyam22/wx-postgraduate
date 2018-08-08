@@ -16,5 +16,5 @@
     </view>
   </view>
 
-  <text class="tip">说明：本项目不支持退款服务</text>
+  <text class="tip-wrap">说明：本项目不支持退款服务</text>
 </view>

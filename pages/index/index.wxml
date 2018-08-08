@@ -23,7 +23,7 @@
       <text class="more">更多></text>
     </view>
     <view class="class-container">
-      <view class="wrap" wx:for="{{classData}}">
+      <view class="wrap" wx:for="{{classData}}" wx:key="{{index}}">
         <image src="{{item.imgUrl}}" />
         <view class="info">
           <text class="title">{{item.title}}</text>

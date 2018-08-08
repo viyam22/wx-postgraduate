@@ -1,0 +1,25 @@
+<view class="desc">
+  <image class="image" src="{{classData.imgUrl}}" />
+
+  <!-- 课程介绍 -->
+  <view class="class-container">
+    <view class="wrap">
+      <view class="info">
+        <text class="title">{{classData.title}}</text>
+        <text class="current-price">{{classData.currentPrice}}</text>
+        <text class="origin-price">{{classData.originPrice}}</text>
+        <text class="sale">销量：{{classData.sale}}</text>
+      </view>
+    </view>
+  </view>
+
+  <image mode="widthFix" class="desc-image" src="{{classData.descImgUrl}}" />
+
+  <!-- 底部 -->
+  <view class="footer">
+    <view class="footer-wrap">
+      <view class="item bg-o">加入购物车</view>
+      <view class="item bg-b">立即购买</view>
+    </view>
+  </view>
+</view>

@@ -20,21 +20,21 @@
   float: left;
 }
 
-.gufen .lists {
+.lists {
   background: #fff;
   padding-left: 30rpx;
 }
-.gufen .lists .item {
+.lists .item {
   line-height: 130rpx;
   position: relative;
   color: #494b4c;
   font-size: 30rpx;
   border-bottom: 1px #f5f5f5 solid;
 }
-.gufen .lists .item:last-child {
+.lists .item:last-child {
   border: none;
 }
-.gufen .lists .item .img {
+.lists .item .img {
   position: absolute;
   top: 0;
   right: 0;

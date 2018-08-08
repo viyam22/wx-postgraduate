@@ -43,6 +43,7 @@
 .carts-list {
   display: flex;
   flex-direction: column;
+  background: #fff;
 }
 
 .carts-item {

@@ -1,19 +1,23 @@
 {
   "pages": [
-    "pages/online/online",
+    "pages/index/index",
+    "pages/product/desc",
+    "pages/online/answer",
+    "pages/online/loading",
+    "pages/product/product",
     "pages/online/my-score",
-    "pages/online/result",
+    "pages/sale/sale",
     "pages/online/exam",
-    "pages/online/onlinetest",    
-    "pages/online/rank",
+    "pages/buy/buy",
     "pages/online/fee",
+    "pages/online/online",  
+    "pages/online/onlinetest",    
     "pages/online/onlinecard",    
     "pages/online/paid",    
     "pages/gufen/fee",
     "pages/gufen/all-rank",
     "pages/gufen/gufen",
     "pages/gufen/my-score",
-    "pages/index/index",
     "pages/rank/select-subject",
     "pages/rank/rank",
     "pages/rank/subject",
@@ -53,19 +57,19 @@
         "selectedIconPath": "./assets/tab_home_sel.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/gufen/gufen",
         "text": "估分",
         "iconPath": "./assets/tab_gufen.png",
         "selectedIconPath": "./assets/tab_gufen_sel.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/sale/sale",
         "text": "分销",
         "iconPath": "./assets/tab_sale.png",
         "selectedIconPath": "./assets/tab_sale_sel.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/online/online",
         "text": "测评",
         "iconPath": "./assets/tab_test.png",
         "selectedIconPath": "./assets/tab_test_sel.png"

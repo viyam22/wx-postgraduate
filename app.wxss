@@ -90,3 +90,11 @@ page {
   top: 0;
   z-index: -1;
 }
+/* tip */
+.tip-wrap {
+  font-size: 24rpx;
+  color: #bcc1c4;
+  padding: 0 30rpx;
+  line-height: 70rpx;
+}
+

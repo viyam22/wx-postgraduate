@@ -1,0 +1,25 @@
+<!-- 购买 -->
+<view class="buy">
+  <view class="class-container">
+    <view class="wrap" wx:for="{{classData}}" wx:key="{{index}}">
+      <image src="{{item.imgUrl}}" />
+      <view class="info">
+        <text class="title">{{item.title}}</text>
+        <text class="num">数量：1</text>
+        <text class="current-price">{{item.currentPrice}}</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="status">
+    <view class="item" wx:for="{{status}}" wx:key="index" bindtap="selectItem" data-index="{{index}}">
+      <text>{{item.name}}</text>
+      <image class="{{item.isSelect ? 'select-btn-active' : 'select-btn'}}" src="{{item.isSelect ? '../../assets/icon_tick_sel.png' : ''}}" />
+      <text class="to-right">{{item.price}}</text>
+    </view>
+  </view>
+
+  <text class="tip-wrap">说明：本项目不支持退款服务</text>
+
+  <button class="button-l">实付金额:￥196</button>
+</view>
