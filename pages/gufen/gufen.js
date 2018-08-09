@@ -17,6 +17,9 @@ Page({
       '../../assets/gufen_bought.png'
     ]
   },
-  onLoad: () => {
+  toDownload: function() {
+    wx.navigateTo({url: '../product/desc'})
+  },
+  onLoad: function() {
   }
 })

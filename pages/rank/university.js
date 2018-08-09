@@ -17,6 +17,9 @@ Page({
     this.setData({
       actived: e.target.dataset.index
     })
+    setTimeout(function () {
+      wx.navigateTo({url: '../rank/select-subject'})
+    }, 1500)
   },
   onLoad: () => {
   }

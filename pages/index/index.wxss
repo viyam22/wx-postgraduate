@@ -89,6 +89,7 @@
   width: 100%;
   height: 240rpx;
   border-radius: 10rpx;
+  display: block;
 }
 .sign {
   background: #fff;

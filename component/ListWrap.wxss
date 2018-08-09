@@ -6,3 +6,9 @@
   color: #494b4c;
   line-height: 100rpx;
 }
+.icon-more {
+  float: right;
+  width: 12rpx;
+  height: 22rpx;
+  margin-top: 39rpx;
+}

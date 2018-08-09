@@ -1,6 +1,9 @@
 {
   "pages": [
+    "pages/online/fee",
+    "pages/rank/rank",
     "pages/index/index",
+    "pages/rank/info",
     "pages/product/desc",
     "pages/online/answer",
     "pages/online/loading",
@@ -9,7 +12,7 @@
     "pages/sale/sale",
     "pages/online/exam",
     "pages/buy/buy",
-    "pages/online/fee",
+    
     "pages/online/online",  
     "pages/online/onlinetest",    
     "pages/online/onlinecard",    
@@ -18,11 +21,10 @@
     "pages/gufen/all-rank",
     "pages/gufen/gufen",
     "pages/gufen/my-score",
-    "pages/rank/select-subject",
-    "pages/rank/rank",
+   
+    
     "pages/rank/subject",
     "pages/rank/university",
-    "pages/rank/result",
     "pages/post/cost",
     "pages/logs/logs",
     "pages/center/center",

@@ -14,6 +14,9 @@ Page({
       score: 96
     }]
   },
-  onLoad: () => {
+  
+  onLoad: function () {
+    // 获取排名数据接口
+    // code...
   }
 })

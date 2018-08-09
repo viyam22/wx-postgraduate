@@ -34,8 +34,8 @@
 <view class="select-lists margin-bottom">
   <view class="item">
     <text>考试分数</text>
-    <input class="input-txt" placeholder-style="placeholder" placeholder="请输入分数"/>
+    <input class="input-txt" placeholder-style="placeholder" placeholder="请输入分数" bindinput="getScore"/>
   </view>
 </view>
 
-<ButtonWrap inner-txt="提交"></ButtonWrap>
+<ButtonWrap inner-txt="提交" bindtap="submitData"></ButtonWrap>
