@@ -1,0 +1,20 @@
+<view class="fee">
+  <image class="bg-fee" src="../../assets/bg_fee.png" />
+  <view class="container">
+    <text class="title">在线测评考考试费用</text>
+
+    <view class="main">
+      <view class="item" wx:for="{{feeData}}" wx:key="{{index}}" bindtap="selectItem" data-index="{{index}}">
+        <text class="to-left">{{item.name}}</text>
+        <image wx:if="{{item.isSelect}}" src="{{item.isSelect && item.hasSelect ? '../../assets/icon_tick_blue.png' : ''}}" class="icon-tick-blue {{item.isSelect && !item.hasSelect ? 'select-default' : ''}}" />
+        <text class="to-right">{{item.fee}}</text>
+      </view>
+    </view>
+
+    <view class="footer">
+      <button class='button-s'>微信支付</button>
+    </view>
+  </view>
+
+  <text class="tip">说明：本项目不支持退款服务</text>
+</view>

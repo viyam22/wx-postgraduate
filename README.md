@@ -5,3 +5,4 @@ center 个人中心
 sale 分销
 buy 购买
 purse 我的钱包
+online 在线评测

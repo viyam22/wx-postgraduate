@@ -1,1 +1,14 @@
+<!-- 在线测评 -->
+<view class="gufen">
+  <view class="notice">
+    <text class="label">动态</text>
+    <text class="txt">李静好已经参加报考估分测试卷二考试</text>
+  </view>
 
+  <view class="lists">
+    <view class="item" wx:for="{{data}}" wx:key="{{index}}">
+      <text>{{item.name}}</text>
+      <image class="img" src="{{typeImg[item.type]}}" />
+    </view>
+  </view>
+</view>

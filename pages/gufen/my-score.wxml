@@ -15,12 +15,33 @@
     <text class="tip">去查看一下本次成绩排名吧~</text>
 
     <view class="button-wrap">
-      <view>
+      <view class="button">
         查看排名
       </view>
-      <view>
+      <view class="button">
         下载标准答案文档
       </view>
     </view>
   </view>
+
+  <view class="main">
+    <view class="rank-lists ">
+      <view class="title">我的成绩</view>
+      <view class="rank-table">
+        <view class="header">
+          <view class="td">科目</view>
+          <view class="td">成绩</view>
+        </view>
+        <view class="lists">
+          <view class="item" wx:for="{{data}}" wx:key="index">
+            <view class="td td-blue-sel">{{item.subject}}</view>
+            <view class="td td-blue">{{item.score}}</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <ButtonWrap inner-txt="转发出去，炫耀一把！"></ButtonWrap>
 </view>
+

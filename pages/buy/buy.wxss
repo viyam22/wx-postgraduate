@@ -1,0 +1,66 @@
+.class-container {
+  background: #fff;
+}
+.class-container .wrap {
+  border-top: 1px #f0f0f0 solid;
+  padding: 24rpx;
+}
+.class-container .wrap image {
+  width: 240rpx;
+  height: 178rpx;
+  margin-right: 28rpx;
+  float: left;
+}
+.class-container .wrap .info .title {
+  color: #313133;
+  font-size: 30rpx;
+  line-height: 30rpx;
+}
+.class-container .wrap .info .num {
+  color: #626266;
+  font-size: 30rpx;
+  margin-top: 20rpx;
+  display: block;
+}
+.class-container .wrap .info .current-price {
+  color: #ff7f4d;
+  font-size: 30rpx;
+}
+
+.status {
+  background: #fff;
+  padding-left: 30rpx;
+  margin-top: 30rpx;
+}
+.status .item {
+  line-height: 118rpx;
+  color: #494b4c;
+  font-size: 30rpx;
+  border-bottom: 1px #eaeaea dashed;
+  padding-right: 60rpx;
+}
+.status .item:last-child {
+  border-bottom: none;
+}
+.status .item .select-btn {
+  width: 26rpx;
+  height: 26rpx;
+  border: 1px #d3d3d3 solid;
+  border-radius: 50%;
+  float: right;
+  margin-top: 44rpx;
+}
+.status .item .select-btn-active {
+  width: 28rpx;
+  height: 28rpx;
+  border-radius: 50%;
+  float: right;
+  margin-top: 44rpx;
+}
+.status .item .to-right {
+  float: right;
+  margin-right: 16rpx;
+}
+.button-l {
+ margin-top: 60rpx;
+}

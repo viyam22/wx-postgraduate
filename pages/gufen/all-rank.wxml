@@ -7,7 +7,7 @@
   </view>
 
   <view class="main">
-    <image src="../../assets/img_my_score.png" />
+    <image class="img-my-score" src="../../assets/img_my_score.png" />
     <view class="score">
       <text class="label">我的成绩</text>
       <view class="lists">
@@ -77,5 +77,14 @@
         </view>
       </view>
     </view>
+    
+    <view class="division">推荐</view>
+    <view class="ad">
+      <text class="title">获得一对已报考建议</text>
+      <text class="desc">让成绩的每一分都“分超所值”</text>
+      <view class="checkout">查看</view>
+    </view>
+
+    <image src="../../assets/img_ad.png" class="img_ad" />
   </view>
 </view>

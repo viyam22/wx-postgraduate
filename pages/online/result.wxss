@@ -1,0 +1,102 @@
+.header {
+  height: 100rpx;
+  width: 100%;
+  background: #fff;
+  border-bottom: 1rpx #e0e0e0 solid;
+}
+.header > text {
+  color: #313233;
+  font-size: 30rpx;
+  line-height: 100rpx;
+  margin-left: 30rpx;
+  float: left;
+}
+.header > .button {
+  color: #fff;
+  font-size: 28rpx;
+  line-height: 56rpx;
+  padding: 0 28rpx;
+  border-radius: 8rpx;
+  background: #ff7f4d;
+  display: block;
+  float: right;
+  margin-top: 22rpx;
+  margin-right: 40rpx;
+}
+.header .stutas {
+  float: right;
+  margin-right: 20rpx;
+  margin-top: 30rpx;
+}
+.header .stutas .current-num {
+  color: #ff7f4d;
+  font-size: 42rpx;
+}
+.header .stutas .total-num {
+  color: #808080;
+  font-size: 28rpx;
+}
+
+.topic {
+  border-top: 1rpx #e0e0e0 solid;
+  background: #fff;
+  width: 100%;
+  margin-top: 28rpx;
+  padding: 48rpx 30rpx;
+  box-sizing: border-box;
+  font-size: 30rpx;
+}
+.topic text {
+  line-height: 44rpx;
+  color: #313233;
+}
+.topic .radio-group {
+  line-height: 80rpx;
+  color: #626466;
+  margin-left: 28rpx;
+}
+.topic .radio-group .ui-radio {
+  display: block;
+  height: 88rpx;
+}
+/* .ui-radio radio,.ui-radio checkbox {
+  display: none;
+}
+.ui-radio .text {
+  background: #ff7f4d;
+}
+.ui-radio.checked .text {
+} */
+
+.button-container {
+  width: 100%;
+  margin-top: 80rpx;
+  padding: 0 50rpx;
+  box-sizing: border-box;
+}
+.button-container .wrap {
+  width: 50%;
+  float: left;
+}
+
+.answer {
+  line-height: 90rpx;
+  font-size: 28rpx;
+  color: #313233;
+  padding-left: 30rpx;
+}
+.answer text {
+  margin-right: 100rpx;
+}
+.analysis {
+  background: #fff;
+  padding: 30rpx;
+  color: #404142;
+  font-size: 30rpx;
+}
+.analysis text {
+  display: block;
+}
+.analysis .desc {
+  margin-top: 10rpx;
+}

@@ -1,0 +1,5 @@
+<view class="answer">
+  <view class="container">
+    <text wx:for="{{answerData}}" wx:key="{{index}}">{{index + 1}}、{{item}}</text>
+  </view>
+</view>
