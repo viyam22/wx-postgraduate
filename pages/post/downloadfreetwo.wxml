@@ -5,8 +5,8 @@
     <image src='../../assets/bg_page.png' class='bg_page'></image>
     <view class='main'>
       <view class='testtitle'>在线测评测试题</view>
-      <view class='testsubtitle'>鑫全考研在线测评测试卷一</view>
-      <button class='btn'>点击下载</button>
+      <view class='testsubtitle'>{{examTitle}}</view>
+      <button class='btn' bindtap="download">点击下载</button>
     </view>
   </view>
 

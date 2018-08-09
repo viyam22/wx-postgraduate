@@ -1,15 +1,17 @@
 {
   "pages": [
+    "pages/post/download",
+    "pages/post/downloadfree",
+    "pages/post/downloadfreetwo",
+    "pages/post/downloadcharges",
+    "pages/gufen/fee",
+    "pages/gufen/gufen",
+    "pages/cart/cart",
     "pages/online/fee",
     "pages/gufen/one-by-one",
-    "pages/cart/cart",
     "pages/index/index",
     "pages/ewm/ewm-wx",
     "pages/gufen/upload-test",
-    "pages/post/download",
-    "pages/post/downloadfreetwo",
-    "pages/post/downloadfree",
-    "pages/post/downloadcharges",
     "pages/rank/info",
     "pages/product/desc",
     "pages/online/answer",
@@ -19,8 +21,8 @@
     "pages/sale/sale",
     "pages/online/exam",
     "pages/buy/buy",
-    "pages/gufen/fee",
-    "pages/gufen/gufen",
+    
+    
     "pages/gufen/all-rank",
     "pages/gufen/my-score",
     "pages/online/online",

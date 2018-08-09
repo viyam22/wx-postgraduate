@@ -10,7 +10,7 @@
         <text class='time'>52</text>分
         <text class='time'>29</text>秒
       </view>
-      <button class='btn'>点击下载</button>
+      <button class='btn'>上传文件</button>
     </view>
   </view>
 

@@ -12,7 +12,7 @@
     </view>
 
     <view class="footer">
-      <button class='button-s'>微信支付</button>
+      <button class='button-s' bindtap="payment">微信支付</button>
     </view>
   </view>
 
