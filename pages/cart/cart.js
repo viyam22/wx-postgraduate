@@ -274,8 +274,13 @@ Page({
   deleteCart: function (e) {
     var index = parseInt(e.currentTarget.dataset.index)
     var id = this.data.carts[index].id;
-    var that = this
-
+    var carts = this.data.carts;
+    //移除列表中下标为index的项
+    carts.splice(index, 1);
+    //更新列表的状态
+    this.setData({
+      carts: carts
+    });
   },
   saveNum: function (id, num) {
   },
