@@ -1,38 +1,38 @@
-
 <view wx:if="{{ empty }}">
-<text>还没有商品</text>
+  <text>还没有商品</text>
 </view>
 <!-- # 商品列表 -->
 <view wx:if="{{ !empty }}">
   <scroll-view scroll-y="true" style="width:100%;height:{{height}}px">
     <view class="cart-container carts-list">
       <view wx:for="{{carts}}" wx:key="index" class="carts-item">
-        <!-- 复选框 -->
-        <view class="checkBoxArea" bindtap="bindCheckbox" data-index="{{index}}">
-          <icon wx:if="{{item.selected}}" type="success" size="20" color="#F35150" />
-          <icon wx:else type="circle" size="20" />
-        </view>
-
-        <!-- 缩略图 -->
-        <view style='width:180rpx;'>
-          <image class="carts-image" src="{{item.image}}" mode="aspectFill" />
-        </view>
-        <view class="carts-text">
-          <text class="carts-title">{{item.goods_name}}</text>
-          <!-- 数量加减器 -->
-          <view class="stepper">
-            <text class="normal" data-index="{{index}}" bindtap="bindMinus">-</text>
-            <input type="number" style='border:1rpx solid #ccc;' data-index="{{index}}" bindchange="bindManual" value="{{item.goods_num}}" />
-            <text class="normal right" data-index="{{index}}" bindtap="bindPlus">+</text>
+        <view bindtouchstart="touchS" bindtouchmove="touchM" bindtouchend="touchE" data-index="{{index}}"  class='touch-item'  style="{{item.txtStyle}}">
+          <!-- 复选框 -->
+          <view class="checkBoxArea" bindtap="bindCheckbox" data-index="{{index}}">
+            <icon wx:if="{{item.selected}}" type="success" size="20" color="#F35150" />
+            <icon wx:else type="circle" size="20" />
           </view>
-          <view class="carts-right">
-            <text class="price">￥{{item.member_goods_price}}</text>
-          </view>
+          <!-- 缩略图 -->
+            <image class="carts-image" src="{{item.image}}" mode="aspectFill" />
+          <!--内容  -->
+           <view class="carts-text">
+            <text class="carts-title">{{item.goods_name}}</text> 
+          </view>             
+            <!-- 数量加减器 -->
+              <view class="stepper">
+              <text class="normal" data-index="{{index}}" bindtap="bindMinus">-</text>
+              <input type="number" style='border:1rpx solid #ccc;' data-index="{{index}}" bindchange="bindManual" value="{{item.goods_num}}" />
+              <text class="normal right" data-index="{{index}}" bindtap="bindPlus">+</text>
+            </view> 
+             <view class="carts-right">
+              <text class="price">￥{{item.member_goods_price}}</text>
+            </view> 
         </view>
+         <view data-index="{{index}}" bindtap = "delItem" class="inner del">删除</view> 
       </view>
     </view>
   </scroll-view>
-<!--底部按钮  -->
+  <!--底部按钮  -->
   <view class="carts-footer">
     <view class="selectAllBox" bindtap="bindSelectAll">
       <icon wx:if="{{selectedAllStatus}}" type="success" size="20" color="#F35150" style='vertical-align:middle;' />

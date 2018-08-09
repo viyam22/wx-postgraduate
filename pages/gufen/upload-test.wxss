@@ -1,0 +1,25 @@
+/* pages/gufen/upload-test.wxss */
+.upload{
+  text-align: center;
+}
+.img{
+  width: 208rpx;
+  height: 154rpx;
+  margin-top: 148rpx;
+}
+.loadtitle{
+  font-size: 40rpx;
+  color: #494a4d;
+  margin-top: 40rpx;
+}
+.wait{
+  font-size: 32rpx;
+  color: #7a7c80;
+  margin-top: 40rpx;  
+}
+.reload{
+  text-decoration: underline;
+  color: #0099ff;
+  font-size: 28rpx;
+  margin-top: 20rpx;    
+}

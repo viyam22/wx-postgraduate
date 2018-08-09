@@ -1,0 +1,20 @@
+<!--下载说明 免费-考试中 -->
+<view class='paid'>
+  <image src='../../assets/bg_blue.png' class='bg_blue'></image>
+  <view class='page'>
+    <image src='../../assets/bg_page.png' class='bg_page'></image>
+    <view class='main'>
+      <view class='testtitle'>考试剩余时间：</view>
+      <view class='testsubtitle'>
+        <text class='time'>03</text>时
+        <text class='time'>52</text>分
+        <text class='time'>29</text>秒
+      </view>
+      <button class='btn'>点击下载</button>
+    </view>
+  </view>
+
+  <view class='shuoming'>
+    答题结束后请上传答案，上传格式为：pdf、jpeg
+  </view>
+</view>

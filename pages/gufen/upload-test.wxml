@@ -1,0 +1,13 @@
+<!--上传成功  -->
+<view wx:if="{{ success }}" class='upload'>
+  <image src='../../assets/img_success.png' class='img'></image>
+  <view class='loadtitle'>上传成功</view>
+  <view class='wait'>您的答题试卷已经上传成功,耐心等待...</view>
+</view>
+<!-- 上传失败 -->
+<view wx:if="{{ !success }}" class='upload'>
+  <image src='../../assets/img_success.png' class='img'></image>
+  <view class='loadtitle'>上传失败</view>
+  <view class='wait'>您的答题试卷上传失败，请重试...</view>
+  <view class='reload'>重新上传</view>
+</view>

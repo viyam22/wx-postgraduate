@@ -1,0 +1,13 @@
+<view class='one'>
+  <image src='../../assets/one_by_one.png' class='img'></image>
+  <!-- <view class='title'>添加老师微信，获取更多资讯</view> -->
+</view>
+  <view class='cash'>
+    <text class='title' >订单金额</text>   
+    <text class='cash-input'>￥198</text>
+  </view>
+    <view class='shuoming'>
+    "说明：
+<view class='item'>本项目不支持退款服务、支付金额后获取老师微信，获得一对一咨询</view>
+
+  </view>
