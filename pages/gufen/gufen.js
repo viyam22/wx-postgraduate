@@ -10,7 +10,7 @@ Page({
     },{
       name: '鑫全考研报考估分测试卷一',
       type: 2
-    }],
+    }], 
     typeImg: [
       '../../assets/gufen_charge.png',
       '../../assets/gufen_free.png',

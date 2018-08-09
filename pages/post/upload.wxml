@@ -6,11 +6,11 @@
     <view class='main'>
       <view class='testtitle'>考试剩余时间：</view>
       <view class='testsubtitle'>
-        <text class='time'>03</text>时
-        <text class='time'>52</text>分
-        <text class='time'>29</text>秒
+        <text class='time'>{{time.hh}}</text>时
+        <text class='time'>{{time.mm}}</text>分
+        <text class='time'>{{time.ss}}</text>秒
       </view>
-      <button class='btn'>上传文件</button>
+      <button class='btn' bindtap="upload">上传文件</button>
     </view>
   </view>
 

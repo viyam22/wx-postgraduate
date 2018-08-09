@@ -12,7 +12,7 @@ Page({
           wx.playVoice({filePath: res.tempFilePath})
 
           // 下载成功跳转倒计时页面
-          wx.navigateTo({url: '../post/download'})
+          wx.navigateTo({url: '../post/downloadfree'})
         }
       }
     })

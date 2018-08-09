@@ -11,4 +11,4 @@
       <image class="img" src="{{typeImg[item.type]}}" />
     </view>
   </view>
-</view>
+</view> 

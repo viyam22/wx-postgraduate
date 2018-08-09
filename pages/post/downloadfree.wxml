@@ -5,10 +5,10 @@
     <image src='../../assets/bg_page.png' class='bg_page'></image>
     <view class='main'>
       <view class='testtitle'>在线测评测试题</view>
-      <view class='testsubtitle'>鑫全考研在线测评测试卷一</view>
+      <view class='testsubtitle'>{{examTitle}}</view>
       <view class='button'>
-        <text class='btn left'>点击下载</text>
-        <text class='btn'>查看答案</text>
+        <text class='btn left' bindtap="download">点击下载</text>
+        <text class='btn' bindtap="toAnswer">查看答案</text>
       </view>
     </view>
   </view>

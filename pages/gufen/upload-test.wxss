@@ -1,4 +1,7 @@
 /* pages/gufen/upload-test.wxss */
+page {
+  background: #fff;
+}
 .upload{
   text-align: center;
 }
