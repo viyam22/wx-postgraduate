@@ -28,7 +28,7 @@
               <text class="price">￥{{item.member_goods_price}}</text>
             </view> 
         </view>
-         <view data-index="{{index}}" bindtap = "delItem" class="inner del">删除</view> 
+         <view data-index="{{index}}" bindtap="deleteCart" class="inner del">删除</view> 
       </view>
     </view>
   </scroll-view>
