@@ -1,0 +1,4 @@
+<view class='ewm-wx'>
+  <image src='../../assets/center/ewm.png' class='img'></image>
+  <view class='title'>添加老师微信，获取更多资讯</view>
+</view>

@@ -1,0 +1,14 @@
+/* pages/ewm/ewm-wx.wxss */
+.ewm-wx{
+  text-align: center;
+  padding-top: 70rpx;
+}
+.img{
+  width: 398rpx;
+  height: 398rpx;
+}
+.title{
+  font-size: 30rpx;
+  color: #666;
+  margin-top: 30rpx;
+}

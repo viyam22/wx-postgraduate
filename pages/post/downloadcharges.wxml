@@ -1,0 +1,22 @@
+<!--下载说明 收费 -->
+<view class='paid'>
+  <image src='../../assets/bg_blue.png' class='bg_blue'></image>
+  <view class='page'>
+    <view class='yuan'>
+      <image src='../../assets/tick_blue.png' class='tick_blue'></image>
+      <view class='title'>支付成功</view>
+    </view>
+    <image src='../../assets/bg_page.png' class='bg_page'></image>
+    <view class='main'>
+      <view class='testtitle'>在线测评测试题</view>
+      <view class='testsubtitle'>鑫全考研在线测评测试卷一</view>
+      <button class='btn'>点击下载</button>
+    </view>
+  </view>
+
+  <view class='shuoming'>
+    "说明：
+<view class='item'>1、下载后即将进入测试状态，在规定时间内答好题并上传试卷，会有专业老师上传考试结果，分为主观题和客观题分数</view>
+<view class='item'>2、上传格式为：pdf、jpeg</view>
+  </view>
+</view>

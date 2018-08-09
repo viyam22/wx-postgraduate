@@ -50,34 +50,46 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  height: 250rpx;
-  width: 710rpx;
+  height: 180rpx;
+  width: 100%;
   border-bottom: 1rpx solid #eee;
   margin: 0 auto;
   position: relative;
-  padding-bottom:15rpx;
+  padding:20rpx;
+  background-color: #fff
+
 }
 
 /* 复选框 */
 
 .checkBoxArea {
-  height: 180rpx;
+  height: 210rpx;
+  line-height: 210rpx;
   width: 20px;
   margin-right:15rpx;
-}
-
-.checkBoxArea icon {
-  margin-top: 62rpx;
 }
 
 /* 缩略图 */
 
 .carts-image {
-  width: 180rpx;
+  position: absolute;
+  top: 20rpx;
+  left: 78rpx;
+  width: 240rpx;
   height: 180rpx;
   border-radius: 3px;
 }
 
+/*title  */
+.carts-text{
+  width: 372rpx;
+  padding-left: 340rpx;
+  font-size: 30rpx;
+  color: #313133;
+  position: absolute;
+  left: 0;
+  top: 20rpx;
+}
 .carts-item-title {
   display: flex;
   flex-direction: row;
@@ -98,30 +110,16 @@
   margin-left: 14rpx;
 }
 
-.carts-text {
-  overflow: hidden;
-  width: 100%;
-  height: 180rpx;
-  /* display: flex; */
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-left: 10rpx;
-}
 
 .carts-right {
-  /* height: 180rpx;
-  width: 110rpx;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-end; */
+  padding-left: 320rpx;
   position: absolute;
-  bottom:65rpx;
+  bottom:30rpx;
+  font-size: 30rpx;
 }
 
 .carts-right .price {
-  color: #f35150;
+  color: #ff7f4d;
 }
 
 .carts-title {
@@ -177,8 +175,8 @@
 .stepper {
   overflow: hidden;
   position: absolute;
-  bottom: 56rpx;
-  right: 0;
+  bottom: 20rpx;
+  right: 60rpx;
 }
 
 /* 加减号 */
@@ -231,7 +229,30 @@
 .stepper .disabled {
   color: #ccc;
 }
+.inner{
+    position: absolute;
+    top:5px;
+    height:200rpx;
+    line-height:200rpx;
 
+}
+.inner.txt{
+    background-color: #fff;
+    width: 100%;
+    z-index: 5;
+    padding:0 10rpx;
+    transition: left 0.2s ease-in-out;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.inner.del{
+    background-color: #e64340;
+    width: 180rpx;text-align: center;
+    z-index: 4;
+    right: 45rpx;
+    color: #fff
+}
 /*底部按钮*/
 
   .carts-footer {
@@ -243,7 +264,7 @@
   align-items: center;
   position: fixed;
   bottom: 0;
-  z-index: 2;
+  z-index: 100;
   border-top: 1px solid #eee;
   background: white;
 } 
@@ -276,4 +297,11 @@
 
 .image-delete {
   width: 40rpx;
+}
+
+.touch-item{
+  width:100%; 
+  background-color:#fff;
+  z-index:11;
+  position: absolute;
 }
