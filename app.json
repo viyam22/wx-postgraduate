@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/gufen/one-by-one",    
     "pages/cart/cart",    
     "pages/index/index",    
     "pages/ewm/ewm-wx",    
