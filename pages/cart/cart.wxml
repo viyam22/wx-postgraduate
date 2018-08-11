@@ -6,9 +6,9 @@
   <scroll-view scroll-y="true" style="width:100%;height:{{height}}px">
     <view class="cart-container carts-list">
       <view wx:for="{{carts}}" wx:key="index" class="carts-item">
-        <view bindtouchstart="touchS" bindtouchmove="touchM" bindtouchend="touchE" data-index="{{index}}"  class='touch-item'  style="{{item.txtStyle}}">
+        <view bindtouchstart="touchS" bindtouchmove="touchM" bindtouchend="touchE" data-index="{{index}}" bindtap="bindCheckbox"  class='touch-item'  style="{{item.txtStyle}}">
           <!-- 复选框 -->
-          <view class="checkBoxArea" bindtap="bindCheckbox" data-index="{{index}}">
+          <view class="checkBoxArea"  data-index="{{index}}">
             <icon wx:if="{{item.selected}}" type="success" size="20" color="#F35150" />
             <icon wx:else type="circle" size="20" />
           </view>
