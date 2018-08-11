@@ -42,6 +42,6 @@
     </view>
   </view>
 
-  <ButtonWrap inner-txt="转发出去，炫耀一把！"></ButtonWrap>
+  <button class="button-l" open-type="share">转发出去，炫耀一把！</button>
 </view>
 
