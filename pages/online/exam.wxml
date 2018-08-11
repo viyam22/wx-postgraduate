@@ -2,14 +2,14 @@
 <view class="exam">
   <view class="header">
     <view class="timer">
-      <text class="num">03</text>
+      <text class="num">{{timer.hh}}</text>
       <text>时</text>
-      <text class="num">52</text>
+      <text class="num">{{timer.mm}}</text>
       <text>分</text>
-      <text class="num">29</text>
+      <text class="num">{{timer.ss}}</text>
       <text>秒</text>
     </view>
-    <view class="button">答题卡</view>
+    <view class="button" bindtap="toCard">答题卡</view>
     <view class="stutas">
       <text class="current-num">2</text>
       <text class="total-num">/60</text>
@@ -21,6 +21,7 @@
     <radio-group class="radio-group" bindchange="radioChange">
       <label class="ui-radio" wx:for="{{items}}" wx:key="index">
         <radio color="#0099ff" value="{{item.name}}" checked="{{item.checked}}"/>
+        <view class="{{radioVal === item.name ? 'button-actived' : 'button'}}"></view>
         <text>{{item.value}}</text>
       </label>
     </radio-group>
@@ -28,10 +29,10 @@
 
   <view class="button-container">
     <view class="wrap">
-      <button class='button-s'>上一题</button>
+      <button class='button-s' bindtap="preTab">上一题</button>
     </view>
     <view class="wrap">
-    <button class='button-s'>下一题</button>
+    <button class='button-s' bindtap="nextTab">下一题</button>
     </view>
   </view>
 </view>

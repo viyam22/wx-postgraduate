@@ -4,10 +4,10 @@
     <view class="tabs-item" wx:for="{{tabs}}" wx:key="{{index}}" bindtap="selectTab" data-index="{{index}}">
       <text class="{{activeTab === index ? 'tabs-item-active' : ''}}" data-index="{{index}}">{{item}}</text>
     </view>
-  </view>
+  </view> 
 
   <view class="class-container">
-    <view class="wrap" wx:for="{{classData}}" wx:key="{{index}}">
+    <view class="wrap" wx:for="{{classData}}" wx:key="{{index}}" bindtap="toDesc" data-id="{{item.id}}">
       <image src="{{item.imgUrl}}" />
       <view class="info">
         <text class="title">{{item.title}}</text>

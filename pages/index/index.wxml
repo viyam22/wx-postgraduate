@@ -26,7 +26,7 @@
       <text class="more" bindtap="toMore">更多></text>
     </view>
     <view class="class-container">
-      <view class="wrap" wx:for="{{classData}}" wx:key="{{index}}" bindtap="toDesc">
+      <view class="wrap" wx:for="{{classData}}" wx:key="{{index}}" bindtap="toDesc" data-id="{{item.id}}">
         <image src="{{item.imgUrl}}" />
         <view class="info">
           <text class="title">{{item.title}}</text>

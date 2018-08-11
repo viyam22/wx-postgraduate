@@ -21,5 +21,5 @@
 
   <text class="tip-wrap">说明：本项目不支持退款服务</text>
 
-  <button class="button-l">实付金额:￥196</button>
+  <button class="button-l" bindtap="payment">实付金额:￥196</button>
 </view>

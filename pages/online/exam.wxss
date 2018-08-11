@@ -69,14 +69,41 @@
   display: block;
   height: 88rpx;
 }
-/* .ui-radio radio,.ui-radio checkbox {
+.ui-radio radio,.ui-radio checkbox {
   display: none;
 }
-.ui-radio .text {
-  background: #ff7f4d;
+.ui-radio .button {
+  width: 26rpx;
+  height: 26rpx;
+  border: 1px #d3d3d3 solid;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 88rpx;
+  margin-right: 30rpx;
 }
-.ui-radio.checked .text {
-} */
+.ui-radio .button-actived {
+  width: 26rpx;
+  height: 26rpx;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 88rpx;
+  margin-right: 30rpx;
+  border: 1px #0099ff solid;
+  position: relative;
+}
+.ui-radio .button-actived:after {
+  content: "";
+  display: block;
+  width: 14rpx;
+  height: 14rpx;
+  position: absolute;
+  background: #0099ff;
+  border-radius: 50%;
+  top: 6rpx;
+  left: 6rpx;
+}
 
 .button-container {
   width: 100%;

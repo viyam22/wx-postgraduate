@@ -75,7 +75,7 @@ Page({
   toDesc: function (e) {
     var id = e.target.dataset.id
     // 加上id跳到课程详情
-    wx.navigateTo({url: '../product/desc'})
+    wx.navigateTo({url: '../product/desc?id=' + id})
   },
 
   // 快速入口

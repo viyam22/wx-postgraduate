@@ -38,7 +38,7 @@ Page({
       this.setData({
         feeData: data
       })
-    }
+    } 
   },
   payment: function() {
     wx.requestPayment({
@@ -48,8 +48,8 @@ Page({
       'signType': 'MD5',
       'paySign': '',
       'success':function(res){
-        // 支付成功跳转下载页面
-        wx.navigateTo({url: '../post/downloadcharges'})
+        // 支付成功跳转付费成功页面
+        wx.navigateTo({url: '../online/paid'})
       },
       'fail':function(res){
       }

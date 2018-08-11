@@ -239,14 +239,14 @@ Page({
     if (cartIds.length <= 0) {
       wx.showToast({
         title: '请勾选商品',
-        icon: 'success',
+        icon: 'none',
         duration: 1000
       })
       return;
     }
     cartIds = cartIds.join(',');
     wx.navigateTo({
-      url: '../../../../order/checkout/checkout?cartIds=' + cartIds + '&amount=' + this.data.total
+      url: '../../../../buy/buy?cartIds=' + cartIds + '&amount=' + this.data.total
     });
   },
   getCarts: function () {

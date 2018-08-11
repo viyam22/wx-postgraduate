@@ -40,6 +40,26 @@ Page({
       })
     }
   },
+  payment: function() {
+    wx.requestPayment({
+      'timeStamp': '',
+      'nonceStr': '',
+      'package': '',
+      'signType': 'MD5',
+      'paySign': '',
+      'success':function(res){
+        // 支付成功跳转下载页面
+        wx.navigateTo({url: '../post/downloadcharges'})
+      },
+      'fail':function(res){
+      }
+   })
+  },
+  // 初始化数据
+  initData: function() {
+    // 接口
+    // code...
+  },
   onLoad: () => {
   }
 })

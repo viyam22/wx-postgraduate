@@ -1,5 +1,8 @@
 <!-- 在线测评-测试成绩-免费 -->
-<view>
+<view class="loading" wx:if="{{!isFinish}}">
+  批改中...
+</view> 
+<view wx:if="{{isFinish}}">
   <view class="bg-blue"></view>
   <view class="info">
     <image src="../../assets/bg_online_rank.png" class="bg" />
@@ -10,15 +13,15 @@
     </view>
     <view class="button-wrap">
       <view>
-        <button class="button">查看排名</button>
+        <button class="button" bindtap="toRank">查看排名</button>
       </view>
       <view>
-        <button class="button">查看成绩</button>
+        <button class="button" bindtap="toAnswer">查看答案</button>
       </view>
     </view>
   </view>
 
-  <button class="button-l">转发出去，炫耀一把</button>
+  <button class="button-l" open-type="share">转发出去，炫耀一把</button>
 
   <view class="product">
     <view class="title">
@@ -28,7 +31,7 @@
     </view>
 
     <view class="class-container">
-      <view class="wrap" wx:for="{{classData}}" wx:key="{{index}}">
+      <view class="wrap" wx:for="{{classData}}" wx:key="{{index}}" bindtap="toDesc" data-id="{{item.id}}">
         <image src="{{item.imgUrl}}" />
         <view class="info">
           <text class="title">{{item.title}}</text>

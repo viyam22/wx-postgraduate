@@ -9,10 +9,10 @@
         <image wx:if="{{item.isSelect}}" src="{{item.isSelect && item.hasSelect ? '../../assets/icon_tick_blue.png' : ''}}" class="icon-tick-blue {{item.isSelect && !item.hasSelect ? 'select-default' : ''}}" />
         <text class="to-right">{{item.fee}}</text>
       </view>
-    </view>
+    </view> 
 
     <view class="footer">
-      <button class='button-s'>微信支付</button>
+      <button class='button-s' bindtap="payment">微信支付</button>
     </view>
   </view>
 

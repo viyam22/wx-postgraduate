@@ -7,7 +7,7 @@
 
   <view class="lists">
     <view class="item" wx:for="{{data}}" wx:key="{{index}}" bindtap="toDownload" data-type="{{item.type}}">
-      <text>{{item.name}}</text>
+      {{item.name}}
       <image class="img" src="{{typeImg[item.type]}}" />
     </view>
   </view>

@@ -29,6 +29,23 @@ Page({
     status[index].isSelect = !status[index].isSelect
     this.setData({ status })
   },
+  // 支付
+  payment:function() {
+    wx.requestPayment({
+      'timeStamp': '',
+      'nonceStr': '',
+      'package': '',
+      'signType': 'MD5',
+      'paySign': '',
+      'success':function(res){
+        wx.navigateTo({
+          url: '../../order/orderdetail'
+        });
+      },
+      'fail':function(res){
+      }
+   })
+  },
   onLoad: function() {
   }
 })

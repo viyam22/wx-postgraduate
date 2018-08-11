@@ -20,5 +20,12 @@ Page({
   },
   selectTab: function(e) {
     this.setData({ activeTab: e.target.dataset.index })
+  },
+  addToCart: function() {
+    // 加入购物车接口 code...
+  },
+  buyNow: function() {
+    this.addToCart()
+    wx.navigateTo({url: '../cart/cart'})
   }
 })

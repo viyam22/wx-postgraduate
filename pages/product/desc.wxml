@@ -18,8 +18,8 @@
   <!-- 底部 -->
   <view class="footer">
     <view class="footer-wrap">
-      <view class="item bg-o">加入购物车</view>
-      <view class="item bg-b">立即购买</view>
+      <view class="item bg-o" bindtap="addToCart">加入购物车</view>
+      <view class="item bg-b" bindtap="buyNow">立即购买</view>
     </view>
   </view>
 </view>

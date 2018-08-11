@@ -40,4 +40,5 @@
   right: 0;
   width: 81rpx;
   height: 87rpx;
+  display: block;
 }

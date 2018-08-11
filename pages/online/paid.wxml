@@ -9,7 +9,7 @@
     <view class='main'>
       <view class='testtitle'>在线测评测试题</view>
       <view class='testsubtitle'>鑫全考研在线测评测试卷一</view>
-      <button class='btn'>去测试</button>
+      <button class='btn' bindtap="toExam">去测试</button>
     </view>
   </view>
 </view>

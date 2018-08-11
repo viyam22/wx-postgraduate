@@ -33,6 +33,7 @@
   margin-left: 16rpx;
 }
 .item{
+  background: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;

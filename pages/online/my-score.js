@@ -1,32 +1,46 @@
 Page({
   data: {
-    items: [
-      {name: 'USA', value: '美国'},
-      {name: 'CHN', value: '中国', checked: 'true'},
-      {name: 'BRA', value: '巴西'},
-      {name: 'JPN', value: '日本'}
-    ],
-    data: [{
-      title: '根据《中华人民共和国消防法》的规定，国务院公安部门规定的（）和其他特殊建设工程，建设单位应当将消防设计文件报送公安机关消防机构审核。',
-      value: [
-        ''
-      ]
-    }],
     classData: [{
       imgUrl: '../../assets/index_into2.png',
       title: '19考研蜕变标准  政英+专业课1V1（赵鑫全讲师）',
       type: '免费试听',
       currentPrice: '￥29',
-      originPrice: '￥59.99'
+      originPrice: '￥59.99',
+      id: ''
     },{
       imgUrl: '../../assets/index_into2.png',
       title: '19考研蜕变标准  政英+专业课1V1（赵鑫全讲师）',
       type: '免费试听',
       currentPrice: '￥29',
-      originPrice: '￥59.99'
+      originPrice: '￥59.99',
+      id: ''
     }],
+    isFinish: true
   },
-  radioChange: function(e) {
-    console.log('radio发生change事件，携带value值为：', e.detail.value)
+
+  // 课程详情
+  toDesc: function (e) {
+    var id = e.target.dataset.id
+    // 加上id跳到课程详情
+    wx.navigateTo({url: '../product/desc?id=' + id})
+  },
+
+  // 查看答案
+  toAnswer: function () {
+    wx.navigateTo({url: '../online/answer'})
+  },
+
+  // 查看排名
+  toRank: function () {
+    wx.navigateTo({url: '../rank/rank'})
+  },
+
+  // 初始化数据
+  inidData: function () {
+    // 接口 code...
+  },
+
+  onLoad: function () {
+    this.inidData
   }
 })

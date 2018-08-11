@@ -42,6 +42,7 @@
 .info .button-wrap .button {
   line-height: 64rpx;
   border-radius: 32rpx;
+  font-size: 28rpx;
   padding: 0 40rpx;
   color: #29a2ff;
   border: 1px #29a2ff solid;
@@ -105,3 +106,11 @@
   text-decoration:line-through;
   margin-left: 16rpx;
 }
+
+.loading {
+  line-height: 100rpx;
+  color: #494b4c;
+  font-size: 30rpx;
+  padding-left: 30rpx;
+  background: #fff;
+} 

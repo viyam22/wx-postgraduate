@@ -17,19 +17,18 @@ Page({
       '../../assets/gufen_bought.png'
     ]
   },
-  toDownload: function(e) {
+  toExam: function(e) {
     var type = e.target.dataset.type
-    if (e === 0) {
+    if (type === 0) {
       // 收费页面
-      wx.navigateTo({url: '../gufen/fee'})
-    } else if (e === 1) {
-      // 免费下载页面
-      wx.navigateTo({url: '../post/downloadfreetwo'})
-    } else if (e === 2) {
-      // 下载页面
-      wx.navigateTo({url: '../post/downloadfreetwo'})
+      wx.navigateTo({url: '../online/fee'})
+    } else if (type === 1) {
+      // 测试页面
+      wx.navigateTo({url: '../online/exam'})
+    } else if (type === 2) {
+      // 测试页面
+      wx.navigateTo({url: '../online/exam'})
     }
-    wx.navigateTo({url: '../product/desc'})
   },
   onLoad: function() {
   }

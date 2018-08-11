@@ -1,36 +1,39 @@
 {
   "pages": [
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/order/orderdetail",
+    "pages/order/order",
+    "pages/online/paid",
+    "pages/online/fee",
+    "pages/online/exam",
+    "pages/online/rank",
+    "pages/online/onlinetest",
+    
+    "pages/online/my-score",
+    "pages/post/downloadfree",
+    "pages/product/desc",
+    "pages/online/loading",
+    "pages/post/downloadcharges",
+    "pages/post/downloadfreetwo",
     "pages/online/online",
     "pages/gufen/upload-test",
-    "pages/post/downloadfree",
     "pages/online/answer",
     "pages/post/upload",
-    "pages/post/downloadfreetwo",
-    "pages/post/downloadcharges",
     "pages/gufen/fee",
     "pages/gufen/gufen",
-    "pages/cart/cart",
-    "pages/online/fee",
+    
     "pages/gufen/one-by-one",
-    "pages/index/index",
     "pages/ewm/ewm-wx",
     "pages/rank/info",
-    "pages/product/desc",
-    
-    "pages/online/loading",
     "pages/product/product",
-    "pages/online/my-score",
     "pages/sale/sale",
-    "pages/online/exam",
+    
     "pages/buy/buy",
-    
-    
     "pages/gufen/all-rank",
     "pages/gufen/my-score",
-   
-    "pages/online/onlinetest",
     "pages/online/onlinecard",
-    "pages/online/paid",
+    
     "pages/rank/rank",
     "pages/rank/subject",
     "pages/rank/university",
@@ -42,17 +45,16 @@
     "pages/purse/balance/balance",
     "pages/integral/integral",
     "pages/integral/detail",
-    "pages/order/orderdetail",
-    "pages/order/order",
+    
     "pages/agent/agent",
     "pages/ewm/ewm",
     "pages/center/setting"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#0099ff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "color": "#999",
