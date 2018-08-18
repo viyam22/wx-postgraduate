@@ -14,7 +14,7 @@
 }
 .cash-input{
   float: right;
-  width: 100rpx;
+  width:200rpx;
   height: 100rpx;
   line-height: 100rpx;
 }
@@ -27,4 +27,8 @@
   font-size: 32rpx;
   color: #fff;
   margin-top: 150rpx;
+}
+.tip{
+  color: red;
+  font-size: 30rpx;
 }

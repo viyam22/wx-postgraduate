@@ -3,9 +3,12 @@
   <view class="header">
     <view class="info">
       <image src="../../assets/avatar.png" />
-      <view class="info-mate">
+      <view class="info-mate" wx:if="{{islogin}}">
         <text class="info-mate-name">希达拉普达</text>
         <text class="info-mate-phone">159487859</text>
+      </view>
+      <view class="info-mate" wx:if="{{!islogin}}">
+      <text class="info-mate-name">未登录</text>
       </view>
       <navigator url="/pages/center/setting"  class="setting">设置</navigator>
       <text ></text>

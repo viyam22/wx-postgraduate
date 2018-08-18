@@ -1,0 +1,9 @@
+<!-- 报考估分 -->
+<view class="gufen">
+  <view class="lists">
+    <view class="item" wx:for="{{data}}" wx:key="{{index}}" bindtap="toDownload" data-type="{{item.type}}">
+      {{item.name}}
+      <text class='text'>批改中...</text>
+    </view>
+  </view>
+</view> 

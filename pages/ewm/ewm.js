@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    ewmUrl:"../../assets/center/ewm.png"
+    filePath:"../../assets/center/ewm.png",
   },
 
   /**
@@ -14,7 +14,12 @@ Page({
   onLoad: function (options) {
   
   },
-
+  previewImageprimary: function (e) {
+    wx.saveImageToPhotosAlbum({
+      success(res) {
+      }
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

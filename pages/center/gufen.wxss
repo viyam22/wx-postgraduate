@@ -1,0 +1,21 @@
+.lists {
+  background: #fff;
+  padding-left: 30rpx;
+}
+.lists .item {
+  line-height: 130rpx;
+  position: relative;
+  color: #494b4c;
+  font-size: 30rpx;
+  border-bottom: 1px #f5f5f5 solid;
+}
+.lists .item:last-child {
+  border: none;
+}
+.lists .item .text {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 145rpx;
+  color: #999;
+}

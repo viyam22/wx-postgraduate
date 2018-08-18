@@ -1,7 +1,13 @@
 <view class='cash'>
   <text class='title'>绑定手机号</text>
-  <input class='cash-input' type='number' value='15875849865'></input>
+  <input class='cash-input' type='number' maxlength="11" value='15875849865'></input>
 </view>
 <view>
-  <button class='btn'>退出登录</button>
+  <button class='btn' wx:if="{{!isLogin}}">退出登录</button>
+  <button class='btn' wx:if=" {{isLogin}} " bindtap='check'>发送验证码</button>
+
+</view>
+<view class="toast " wx:if="{{isShowToast}} ">
+  <view>正在发送验证码</view>
+  <view>{{times}}s</view>
 </view>

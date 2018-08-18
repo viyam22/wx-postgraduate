@@ -33,6 +33,8 @@
     "pages/rank/subject",
     "pages/rank/university",
     "pages/center/center",
+    "pages/center/gufen",
+    "pages/center/test",    
     "pages/purse/purse",
     "pages/purse/getcash/getcash",
     "pages/purse/balance/balance",

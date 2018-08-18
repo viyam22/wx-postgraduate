@@ -1,16 +1,18 @@
 <block>
-    <view class='itemBox'>
-      <view class="class-container">
-        <view class="wrap" wx:for="{{classData}}">
+  <view class='itemBox'>
+    <view class="class-container">
+      <view class="wrap" wx:for="{{classData}}">
+        <view bindtap="toorderdetail">
           <image src="{{item.imgUrl}}" />
           <view class="info">
             <text class="title">{{item.title}}</text>
             <text class="type">{{item.type}}</text>
             <text class="current-price">{{item.currentPrice}}</text>
             <text class="origin-price">{{item.originPrice}}</text>
-            <text class="num">x{{item.num}}</text>  
+            <text class="num">x{{item.num}}</text>
           </view>
         </view>
       </view>
     </view>
+  </view>
 </block>

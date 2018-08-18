@@ -1,5 +1,6 @@
 Page({
   data: {
+    islogin:false
   },
   toPurse: () => {
     wx.navigateTo({
@@ -23,12 +24,12 @@ Page({
   },
   toScore: () => {
     wx.navigateTo({
-      url: '../score/score'
+      url: './gufen'
     })
   },
   toTest: () => {
     wx.navigateTo({
-      url: '../test/test'
+      url: './test'
     })
   },
   toewm: () => {

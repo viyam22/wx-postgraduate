@@ -1,6 +1,6 @@
 <view class='qrcodeBox'>
     <view class='qrcode'>
-      <image src='{{ewmUrl}}' style="width:492rpx;height:492rpx;"></image>
+      <image src='{{filePath}}' style="width:492rpx;height:492rpx;"></image>
     </view>    
-    <button class='qrcodeBtn'>保存二维码</button>
+    <button class='qrcodeBtn' bindtap="previewImage">保存二维码</button>
 </view>

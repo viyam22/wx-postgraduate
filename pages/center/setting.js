@@ -5,9 +5,21 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    isLogin:true,
+    isShowToast:false,
+    times:0
   },
-
+  check(){
+    var _this = this
+    _this.setData({ isShowToast: false })
+    setInterval(() => {
+      var times=60;
+      times--;
+      _this.setData({ 
+        times:times
+        })
+    }, 1000)
+  },
   /**
    * 生命周期函数--监听页面加载
    */

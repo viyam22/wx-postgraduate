@@ -5,9 +5,25 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    result: '*数据不能为空',
+    isShow: false,
   },
-
+  formSubmit: function (e) {
+    var _this = this
+    for(let i in e.detail.value){
+      console.log(e.detail.value[i])
+      if (!e.detail.value[i]){
+        _this.setData({ 
+          isShow: true,
+         })
+      }else{
+        _this.setData({
+          isShow: false,
+        })
+      }
+    }
+    console.log('form发生了submit事件，携带数据为：', e.detail.value)
+  },
   /**
    * 生命周期函数--监听页面加载
    */

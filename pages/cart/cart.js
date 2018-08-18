@@ -65,7 +65,7 @@ Page({
     goodsList: [],
     empty: false,
     minusStatuses: ['disabled', 'disabled', 'normal', 'normal', 'disabled'],
-    selectedAllStatus: true,
+    selectedAllStatus: false,
     total: '',
     delBtnWidth:110
   },
@@ -201,6 +201,16 @@ Page({
       carts: carts,
     });
     // update database
+
+    // 遍历所有数据
+    for (var i = 0; i < carts.length; i++) {
+      if (!carts[i].selected){
+        this.setData({
+          selectedAllStatus: false,
+        });
+      }
+      // update selected status to db
+    }
 
     this.updataSelect(carts[index].id, carts[index].selected);
     this.sum();

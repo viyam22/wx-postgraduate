@@ -1,7 +1,11 @@
 <view class="get-cash">
   <view class='cash'>
-    <text class='title' >提现金额</text>
-    <input class='cash-input' type='number' placeholder='请输入'></input>
+    <text class='title'>提现金额</text>
+    <input class='cash-input' type='number' placeholder='请输入' bindinput="check"></input>
   </view>
-  <button class='cashbtn'>提现</button>
+  <text class='tip' wx:if="{{isShow}}">{{result}}</text>
+  <button class='cashbtn' bindtap='sign'>提现</button>
+    <view class="toast" wx:if="{{isShowToast}}">
+    <view>提现成功</view>
+  </view>
 </view>
