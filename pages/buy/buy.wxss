@@ -51,8 +51,8 @@
   margin-top: 44rpx;
 }
 .status .item .select-btn-active {
-  width: 28rpx;
-  height: 28rpx;
+  width: 30rpx;
+  height: 30rpx;
   border-radius: 50%;
   float: right;
   margin-top: 44rpx;

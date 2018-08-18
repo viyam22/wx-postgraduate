@@ -1,7 +1,9 @@
 .notice {
-  padding: 30rpx;
+  padding: 0 30rpx;
   overflow: hidden;
   position: relative;
+  height: 86rpx;
+  box-sizing: border-box;
 }
 .notice .label {
   font-weight: bold;
@@ -18,6 +20,7 @@
   margin-left: 90rpx;
   display: block;
   float: left;
+  line-height: 86rpx;
 }
 
 .lists {

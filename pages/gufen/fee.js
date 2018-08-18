@@ -9,7 +9,7 @@ Page({
       name: '可使用账户余额',
       fee: '150元',
       isSelect: true,
-      hasSelect: true    // 是否已选
+      hasSelect: false    // 是否已选
     },{
       name: '可使用积分100分',
       fee: '抵扣￥3',
@@ -33,6 +33,11 @@ Page({
       if (data[index].hasSelect) {
         data[index].hasSelect = false
       } else {
+        for (var i = 0; i < data.length; i++) {
+          if (data[i].isSelect) {
+            data[i].hasSelect = false
+          }
+        }
         data[index].hasSelect = true
       }
       this.setData({

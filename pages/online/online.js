@@ -15,6 +15,13 @@ Page({
       '../../assets/gufen_charge.png',
       '../../assets/gufen_free.png',
       '../../assets/gufen_bought.png'
+    ],
+    notice: [
+      '李静好已经参加报考估分测试卷二考试',
+      '李静好已经参加报考估分测试卷二考试',
+      '李静好已经参加报考估分测试卷二考试',
+      '李静好已经参加报考估分测试卷二考试',
+      '李静好已经参加报考估分测试卷二考试'
     ]
   },
   toExam: function(e) {

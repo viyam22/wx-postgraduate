@@ -1,8 +1,5 @@
 {
   "window": {
     "navigationBarTitleText": "我的成绩"
-  },
-  "usingComponents": {
-    "ButtonWrap": "../../component/Button"
   }
 }
