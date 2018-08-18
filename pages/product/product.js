@@ -1,4 +1,14 @@
 Page({
+  // 上拉加载
+  onReachBottom() {
+    // 接口 code...
+    console.log('22222222')
+    wx.showToast({
+      title: '成功',
+      icon: 'success',
+      duration: 2000
+    })
+  },
   data: {
     tabs: ['课程包', '书籍', '课程'],
     activeTab: 0,
@@ -26,10 +36,10 @@ Page({
   selectTab: function(e) {
     this.setData({ activeTab: e.target.dataset.index })
   },
-    // 课程详情
-    toDesc: function (e) {
-      var id = e.target.dataset.id
-      // 加上id跳到课程详情
-      wx.navigateTo({url: '../product/desc?id=' + id})
-    },
+  // 课程详情
+  toDesc: function (e) {
+    var id = e.target.dataset.id
+    // 加上id跳到课程详情
+    wx.navigateTo({url: '../product/desc?id=' + id})
+  },
 })

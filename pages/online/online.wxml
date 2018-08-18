@@ -2,7 +2,14 @@
 <view class="gufen">
   <view class="notice">
     <text class="label">动态</text>
-    <text class="txt">李静好已经参加报考估分测试卷二考试</text>
+    <!-- 消息滚动 -->
+    <swiper class="swiper-view" autoplay="true" interval="5000" duration="500" class="banner">
+      <block wx:for="{{notice}}" wx:key="{{index}}">
+        <swiper-item>
+          <text class="txt">{{item}}</text>
+        </swiper-item>
+      </block>
+    </swiper>
   </view>
 
   <view class="lists">

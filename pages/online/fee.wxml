@@ -5,8 +5,8 @@
 
     <view class="main">
       <view class="item" wx:for="{{feeData}}" wx:key="{{index}}" bindtap="selectItem" data-index="{{index}}">
-        <text class="to-left">{{item.name}}</text>
-        <image wx:if="{{item.isSelect}}" src="{{item.isSelect && item.hasSelect ? '../../assets/icon_tick_blue.png' : ''}}" class="icon-tick-blue {{item.isSelect && !item.hasSelect ? 'select-default' : ''}}" />
+        <text data-index="{{index}}" class="to-left">{{item.name}}</text>
+        <image data-index="{{index}}" wx:if="{{item.isSelect}}" src="{{item.isSelect && item.hasSelect ? '../../assets/icon_tick_blue.png' : ''}}" class="icon-tick-blue {{item.isSelect && !item.hasSelect ? 'select-default' : ''}}" />
         <text class="to-right">{{item.fee}}</text>
       </view>
     </view> 

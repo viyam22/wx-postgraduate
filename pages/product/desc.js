@@ -23,9 +23,14 @@ Page({
   },
   addToCart: function() {
     // 加入购物车接口 code...
+    wx.showToast({
+      title: '加入购物车成功',
+      icon: 'success',
+      duration: 2000
+    })
   },
   buyNow: function() {
     this.addToCart()
-    wx.navigateTo({url: '../cart/cart'})
+    wx.navigateTo({url: '../buy/buy'})
   }
 })

@@ -38,4 +38,4 @@
   </view>
 </view>
 
-<ButtonWrap inner-txt="提交" bindtap="submitData"></ButtonWrap>
+<button inner-txt="提交" bindtap="submitData" class="button-l"></button>

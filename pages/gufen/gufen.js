@@ -15,6 +15,13 @@ Page({
       '../../assets/gufen_charge.png',
       '../../assets/gufen_free.png',
       '../../assets/gufen_bought.png'
+    ],
+    notice: [
+      '李静好已经参加报考估分测试卷二考试',
+      '李静好已经参加报考估分测试卷二考试',
+      '李静好已经参加报考估分测试卷二考试',
+      '李静好已经参加报考估分测试卷二考试',
+      '李静好已经参加报考估分测试卷二考试'
     ]
   },
   toDownload: function(e) {
@@ -25,7 +32,7 @@ Page({
       wx.navigateTo({url: '../gufen/fee'})
     } else if (type === 1) {
       // 免费下载页面
-      wx.navigateTo({url: '../post/downloadfreetwo'})
+      wx.navigateTo({url: '../post/downloadfree'})
     } else if (type === 2) {
       // 下载页面
       wx.navigateTo({url: '../post/downloadfreetwo'})

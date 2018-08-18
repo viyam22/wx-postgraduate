@@ -1,8 +1,5 @@
 {
   "window": {
     "navigationBarTitleText": "查看排名"
-  },
-  "usingComponents": {
-    "ButtonWrap": "../../component/Button"
   }
 }

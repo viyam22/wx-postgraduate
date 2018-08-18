@@ -12,8 +12,8 @@ page {
   margin-top: 39rpx;
 }
 .icon-tick-blue {
-  width: 28rpx;
-  height: 28rpx;
+  width: 30rpx;
+  height: 30rpx;
   border-radius: 50%;
 }
 /* Toast */

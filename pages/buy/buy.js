@@ -20,13 +20,17 @@ Page({
     },{
       name: '可使用账户余额 150元',
       price: '￥-20',
-      isSelect: true
+      isSelect: false
     }],
   },
   selectItem: function(e) {
     var status = this.data.status
     var index = e.target.dataset.index
-    status[index].isSelect = !status[index].isSelect
+    for (var i = 0; i < status.length; i++) {
+      console.log('i', i, status.length)
+      status[i].isSelect = false
+    }
+    status[index].isSelect = true
     this.setData({ status })
   },
   // 支付
