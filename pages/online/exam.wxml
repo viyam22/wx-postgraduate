@@ -21,27 +21,12 @@
     <radio-group class="radio-group" bindchange="radioChange">
       <label class="ui-radio" wx:for="{{item.items}}" wx:key="i" wx:for-item="n" wx:for-index="i">
         <radio color="#0099ff" value="{{i}}" disabled="{{isDisabled}}" />
-        <!-- 错误icon -->
-        <image wx:if="{{item.right != radioVal && isShow && radioVal == i}}" src="../../assets/icon_wrong.png" class="icon-wrong" />
         <!-- 选择按钮 -->
-        <view wx:else class="{{radioVal == i ? 'button-actived' : 'button'}}"></view>
+        <view class="{{radioVal == i ? 'button-actived' : 'button'}}"></view>
         <text>{{n.value}}</text>
         <image wx:if="{{n.img}}" src="{{n.img}}" />
       </label>
     </radio-group>
-  </view>
- 
-  <view class="analysis-wrap" wx:if="{{item.right != radioVal && isShow}}">
-    <view class="answer">
-    
-      <text>正确答案：{{shineUpon[item.right]}}</text>
-      <text>选择答案：{{shineUpon[radioVal]}}</text>
-    </view>
-
-    <view class="analysis">
-      <text>答案解析：</text>
-      <text class="desc">国务院公安部门规定的中型的人员密集场所和其他特殊建设工程，建设单位应当将消防设计文件报送公安机关消防机构审核</text>
-    </view>
   </view>
 
   <view class="button-container">

@@ -4,19 +4,6 @@
   <text class='title'>橙色为答错的题目，白色为未答题目</text>
   </view>
   <view class='timu'>
-     <!-- <view wx:for="item in timuData" class='num '>{{item}}</view>  -->
-      <view class='num  warn'>1</view>
-     <view class='num  warn'>1</view> 
-     <view class='num warn'>1</view> 
-     <view class='num warn'>1</view> 
-     <view class='num'>1</view> 
-     <view class='num selected'>1</view> 
-     <view class='num'>1</view> 
-     <view class='num selected'>1</view> 
-     <view class='num'>1</view> 
-     <view class='num'>1</view> 
-     <view class='num'>1</view> 
-     <view class='num'>1</view> 
-     <view class='num'>1</view>  
+    <view class="{{item.isSelected ? (item.isWarn ? 'num warn' : 'num selected') : 'num'}}" wx:for="{{myAnswer}}" wx:key="index" bindtap="toResult">{{item.num}}</view>
   </view>
 </view>

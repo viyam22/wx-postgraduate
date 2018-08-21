@@ -50,7 +50,7 @@ Page({
       },
     ],
     activedIndex: 0,   // 当前题目的下标
-    radioVal: -1,    // 选择答案的下标
+    radioVal: null,    // 选择答案的下标
     initTime: 300, // 秒
     wrongIndex: [],     // 错误题目index集合
     shineUpon: {
@@ -59,8 +59,6 @@ Page({
       2: 'C',
       3: 'D'
     },
-    isShow: false,      // 是否能够显示分析
-    isDisabled: false,   // 是否不能选择
   },
   setTimer: function () {
     var _this = this
@@ -119,46 +117,22 @@ Page({
     }
     this.setData({
       activedIndex: this.data.activedIndex - 1,
-      isShow: true,
-      radioVal: this.data.questionData[this.data.activedIndex - 1].mySelect,
-      isDisabled: false
+      radioVal: this.data.questionData[this.data.activedIndex + 1].mySelect 
     })
   },
-  // 最后一题到成绩页面
-  isToRank() {
-    if (this.data.activedIndex >= this.data.questionData.length - 1) {
-      wx.navigateTo({url: '../online//my-score'})
-    }
-  },
+  
   // 下一题
   nextTab: function (e) {
     var _this = this
-
-    // 答对下一题
-    if (this.data.radioVal == e.target.dataset.right) {
-      this.isToRank()
+    // 最后一题到成绩页面
+    if (this.data.activedIndex >= this.data.questionData.length - 1) {
+      wx.navigateTo({url: '../online/my-score'})
+    } else {
+      // 答题接口 code...
       this.setData({
         activedIndex: this.data.activedIndex + 1,
-        isShow: false,
-        radioVal: -1,
-        isDisabled: false
+        radioVal: this.data.questionData[this.data.activedIndex + 1].mySelect 
       })
-    } else {   // 否则显示答案解析
-      var data = this.data.questionData
-      data[e.target.dataset.index].mySelect = this.data.radioVal
-      this.setData({ isShow: true })
-      this.setData({ isDisabled: true })
-
-      // 默认五秒后显示下一题
-      setTimeout(function() {
-        _this.isToRank()
-        _this.setData({
-          activedIndex: _this.data.activedIndex + 1,
-          isShow: false,
-          radioVal: -1,
-          isDisabled: false
-        })
-      }, 2000)
     }
   },
   // 去答题卡

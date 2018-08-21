@@ -1,5 +1,9 @@
 {
   "pages": [
+    "pages/online/onlinecard",
+    "pages/online/onlinetest",
+    "pages/online/exam",
+    "pages/online/result",
     "pages/index/index",
     "pages/product/product",
     "pages/gufen/gufen",
@@ -10,17 +14,15 @@
     "pages/gufen/fee",
     "pages/online/fee",
     "pages/product/desc",
-    "pages/online/exam",
     "pages/online/rank",
     "pages/online/my-score",
-    
     "pages/online/answer",
     "pages/online/online",
     "pages/cart/cart",
     "pages/order/orderdetail",
     "pages/order/order",
     "pages/online/paid",
-    "pages/online/onlinetest",
+    
     
     "pages/gufen/upload-test",
     "pages/post/upload",
@@ -31,7 +33,7 @@
     "pages/sale/sale",
     "pages/gufen/all-rank",
     "pages/gufen/my-score",
-    "pages/online/onlinecard",
+    
     "pages/rank/rank",
     "pages/rank/subject",
     "pages/rank/university",

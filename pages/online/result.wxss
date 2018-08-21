@@ -4,12 +4,28 @@
   background: #fff;
   border-bottom: 1rpx #e0e0e0 solid;
 }
-.header > text {
-  color: #313233;
+.header .timer {
+  line-height: 40rpx;
+  font-size: 26rpx;
+  float: left;
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+}
+.header .exam-name {
   font-size: 30rpx;
+  color: #313233;
   line-height: 100rpx;
   margin-left: 30rpx;
-  float: left;
+}
+.header .timer text {
+  margin-right: 12rpx;
+}
+.header .timer .num {
+  border-radius: 8rpx;
+  padding: 0 4rpx;
+  color: #fff;
+  background: #5e5e5e;
+  display: inline-block;
 }
 .header > .button {
   color: #fff;
@@ -57,28 +73,66 @@
 }
 .topic .radio-group .ui-radio {
   display: block;
-  height: 88rpx;
 }
-/* .ui-radio radio,.ui-radio checkbox {
+.ui-radio radio, .ui-radio checkbox {
   display: none;
 }
-.ui-radio .text {
-  background: #ff7f4d;
+.ui-radio .button {
+  width: 26rpx;
+  height: 26rpx;
+  border: 1px #d3d3d3 solid;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 88rpx;
+  margin-right: 30rpx;
 }
-.ui-radio.checked .text {
-} */
+.ui-radio .button-actived {
+  width: 26rpx;
+  height: 26rpx;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 88rpx;
+  margin-right: 30rpx;
+  border: 1px #0099ff solid;
+  position: relative;
+}
+.icon-wrong {
+  width: 26rpx;
+  height: 26rpx;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 88rpx;
+  margin-right: 30rpx;
+  position: relative;
+}
+.ui-radio .button-actived:after {
+  content: "";
+  display: block;
+  width: 14rpx;
+  height: 14rpx;
+  position: absolute;
+  background: #0099ff;
+  border-radius: 50%;
+  top: 6rpx;
+  left: 6rpx;
+}
 
 .button-container {
   width: 100%;
-  margin-top: 80rpx;
   padding: 0 50rpx;
   box-sizing: border-box;
+  margin-top: 40rpx;
+  margin-bottom: 40rpx;
+  overflow: hidden;
 }
 .button-container .wrap {
   width: 50%;
   float: left;
 }
 
+/* 答案分析 */
 .answer {
   line-height: 90rpx;
   font-size: 28rpx;
