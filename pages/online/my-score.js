@@ -27,7 +27,7 @@ Page({
 
   // 查看答案
   toAnswer: function () {
-    wx.navigateTo({url: '../online/answer'})
+    wx.navigateTo({url: '../online/result'})
   },
 
   // 查看排名

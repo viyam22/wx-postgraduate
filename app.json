@@ -1,8 +1,8 @@
 {
   "pages": [
+    "pages/online/exam",
     "pages/online/onlinecard",
     "pages/online/onlinetest",
-    "pages/online/exam",
     "pages/online/result",
     "pages/index/index",
     "pages/product/product",
