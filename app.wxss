@@ -81,6 +81,15 @@ page {
   font-size: 32rpx;
   color: #fff;
 }
+.button-s-none {
+  width: 242rpx;
+	height: 88rpx;
+  line-height: 88rpx;
+	background-image: linear-gradient(0deg, #aaa 0%, #e5e5e5 100%);
+	border-radius: 10rpx;
+  font-size: 32rpx;
+  color: #fff;
+}
 /* 蓝色tab */
 .bg-blue {
   background: #0099ff;

@@ -1,5 +1,6 @@
 Page({
   data: {
+    isExam: true,  // 是否在答题，否则显示答题卡
     questionData: [
       {
         title: '根据《中华人民共和国消防法》的规定，国务院公安部门规定的（）和其他特殊建设工程，建设单位应当将消防设计文件报送公安机关消防机构审核。',
@@ -74,18 +75,26 @@ Page({
   // 最后一题到成绩页面
   isToRank() {
     if (this.data.activedIndex >= this.data.questionData.length - 1) {
-      wx.navigateTo({url: '../online/my-score'})
+      wx.redirectTo({url: '../online/my-score'})
     }
   },
   // 下一题
   nextTab: function (e) {
-    this.isToRank()
+    this.isToRank() 
     this.setData({
       activedIndex: this.data.activedIndex + 1
     })
   },
   // 去答题卡
   toCard: function () {
-    wx.navigateTo({url: '../online/onlinetest'})
+    this.setData({ isExam: false })
   },
+  // 回答案分析页
+  toResult: function (e) {
+    this.setData({
+      isExam: true,
+      activedIndex: e.target.dataset.index
+    })
+  }
+
 })

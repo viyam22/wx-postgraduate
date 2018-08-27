@@ -1,9 +1,0 @@
-<view class='onlinecard'>
-  <view class='tip'>
-  <image src='../../assets/icon_warn.png' class='warnicon'></image>
-  <text class='title'>橙色为答错的题目，白色为未答题目</text>
-  </view>
-  <view class='timu'>
-    <view class="{{item.isSelected ? (item.isWarn ? 'num warn' : 'num selected') : 'num'}}" wx:for="{{myAnswer}}" wx:key="index" bindtap="toResult">{{item.num}}</view>
-  </view>
-</view>

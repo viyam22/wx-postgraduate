@@ -1,5 +1,6 @@
 Page({
   data: {
+    isExam: true,  // 是否在答题，否则显示答题卡
     timer: {
       hh: '',
       mm: '',
@@ -117,7 +118,7 @@ Page({
     }
     this.setData({
       activedIndex: this.data.activedIndex - 1,
-      radioVal: this.data.questionData[this.data.activedIndex + 1].mySelect 
+      radioVal: this.data.questionData[this.data.activedIndex - 1].mySelect 
     })
   },
   
@@ -126,7 +127,7 @@ Page({
     var _this = this
     // 最后一题到成绩页面
     if (this.data.activedIndex >= this.data.questionData.length - 1) {
-      wx.navigateTo({url: '../online/my-score'})
+      wx.redirectTo({url: '../online/my-score'})
     } else {
       // 答题接口 code...
       this.setData({
@@ -137,7 +138,14 @@ Page({
   },
   // 去答题卡
   toCard: function () {
-    wx.navigateTo({url: '../online/onlinetest'})
+    this.setData({ isExam: false })
+  },
+  // 返回答题
+  toExam: function(e) {
+    this.setData({
+      isExam: true,
+      activedIndex: e.target.dataset.index
+    })
   },
   onLoad: function() {
     this.setTimer()

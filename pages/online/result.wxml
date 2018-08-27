@@ -1,5 +1,5 @@
 <!-- 在线测评-测试 -->
-<view class="exam" wx:for="{{questionData}}" wx:key="{{index}}" wx:if="{{activedIndex === index}}">
+<view class="exam" wx:for="{{questionData}}" wx:key="{{index}}" wx:if="{{activedIndex === index && isExam}}">
   <view class="header">
     <text class="exam-name">测试卷一</text>
     <view class="button" bindtap="toCard">答题卡</view>
@@ -44,5 +44,17 @@
     <view class="wrap">
     <button class='button-s' bindtap="nextTab" data-right="{{item.right}}" data-index="{{index}}">下一题</button>
     </view>
+  </view>
+</view>
+
+
+<!-- 答题卡 -->
+<view class='onlinecard' wx:if="{{!isExam}}">
+  <view class='tip'>
+  <image src='../../assets/icon_warn.png' class='warnicon'></image>
+  <text class='title'>橙色为答错的题目，白色为未答题目</text>
+  </view>
+  <view class='timu'>
+    <view class="{{item.mySelect ? ( item.mySelect === item.right ? 'num selected' : 'num warn') : 'num'}}" wx:for="{{questionData}}" wx:key="index" bindtap="toResult" data-index="{{index}}">{{index + 1}}</view>
   </view>
 </view>

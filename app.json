@@ -1,8 +1,7 @@
 {
   "pages": [
     "pages/online/exam",
-    "pages/online/onlinecard",
-    "pages/online/onlinetest",
+    "pages/online/my-score",
     "pages/online/result",
     "pages/index/index",
     "pages/product/product",
@@ -15,25 +14,20 @@
     "pages/online/fee",
     "pages/product/desc",
     "pages/online/rank",
-    "pages/online/my-score",
     "pages/online/answer",
     "pages/online/online",
     "pages/cart/cart",
     "pages/order/orderdetail",
     "pages/order/order",
     "pages/online/paid",
-    
-    
     "pages/gufen/upload-test",
     "pages/post/upload",
     "pages/gufen/one-by-one",
     "pages/ewm/ewm-wx",
     "pages/rank/info",
-    
     "pages/sale/sale",
     "pages/gufen/all-rank",
     "pages/gufen/my-score",
-    
     "pages/rank/rank",
     "pages/rank/subject",
     "pages/rank/university",

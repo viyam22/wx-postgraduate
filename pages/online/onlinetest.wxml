@@ -1,6 +1,0 @@
-<view class='onlinetest'>
-  <view class='test'>
-     <view class="{{item.isSelected ? 'num selected' : 'num'}}" wx:for="{{myAnswer}}" wx:key="{{index}}" bindtap="toExam">{{item.num}}</view>   
-  </view>
-  <button class='btn'>交卷</button>
-</view>

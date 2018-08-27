@@ -148,3 +148,50 @@
 .analysis .desc {
   margin-top: 10rpx;
 }
+
+
+/* pages/online/onlinecard.wxss */
+.onlinecard .tip{
+  height: 76rpx;
+  color: #abb0b3;
+  font-size: 28rpx;
+  line-height: 76rpx;
+  text-align: center;
+  position: relative;
+}
+.onlinecard .warnicon{
+  position: absolute;
+  width: 30rpx;
+  height: 30rpx;
+  top:25rpx;
+  left: 130rpx;
+}
+.onlinecard .timu{
+  display: flex;
+  background-color: #fff;
+  padding: 40rpx 65rpx;
+  /* justify-content:space-between; */
+  flex-flow: row wrap;
+  align-content: flex-start;
+}
+.onlinecard .num{
+  width: 70rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  border-radius: 50%;
+  border: 2rpx solid #b2b2b2;
+  text-align: center;
+  color: #939799;
+  font-size: 30rpx;
+  margin: 10rpx 15rpx;
+}
+.onlinecard .selected{
+  background-color: #0099ff;
+  color: #fff;
+  border: 2rpx solid #0099ff;
+}
+.onlinecard .warn{
+  background-color: #ff8949;
+  color: #fff;
+  border: 2rpx solid #ff8949;
+}
